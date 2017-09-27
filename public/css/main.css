@@ -1,0 +1,30 @@
+.navbar-fixed-top {
+min-height: 63px;
+}
+
+.glyphicon-log-in {
+	padding: 10px;
+}
+.glyphicon-user {
+	padding: 10px;
+}
+.carousel img {
+    min-width: 100%;
+}
+
+body {
+  padding-top: 65px;
+}
+@media (max-width: 979px) {
+  body {
+    padding-top: 182px;
+}
+  }
+
+  .Read-More {
+  	color: Green;
+  }
+
+  /*.Read-More:hover {
+  	color: blue;
+  }*/
