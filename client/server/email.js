@@ -1,4 +1,5 @@
 let nodemailer = require("nodemailer");
+const cred = require("./config");
 
 // Static folder
 // app.use("/public", express.static(path.join(__dirname, "public")));
@@ -9,8 +10,8 @@ var transporter = nodemailer.createTransport({
   secure: false,
   service: "Gmail",
   auth: {
-    user: "taxiinvaranasiii@gmail.com",
-    pass: "Abhinav@123",
+    user: cred.user,
+    pass: cred.pass,
   },
 });
 
@@ -34,8 +35,8 @@ module.exports = (app) => {
     var content = `Name: ${name} \n Phone: ${phone} \n Email: ${email}`;
 
     var mail = {
-      from: "taxiinvaranasiii@gmail.com",
-      to: "abhinavpandey.1996@gmail.com",
+      from: cred.user,
+      to: cred.to,
       subject: "Taxi in Varanasi",
       html: content,
     };

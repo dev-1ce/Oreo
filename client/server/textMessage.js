@@ -1,8 +1,10 @@
 var http = require("http");
 var urlencode = require("urlencode");
-var number = "8800939951";
-var username = "mail2shruti.ag@gmail.com";
-var hash = "f1afa115d4089850bf475f53fb486b5f90edf8f55cc06839a1ab0ae26c2faaac";
+const cred = require("./config");
+
+var number = cred.number;
+var username = cred.username;
+var hash = cred.hash;
 
 module.exports = (app) => {
   app.post("/message", (req, res) => {
