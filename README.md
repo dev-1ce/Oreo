@@ -1,2 +1,0 @@
-# Oreo
-Static WebSite
