@@ -21,7 +21,6 @@ app.use(bodyParser.urlencoded({ extended: false }));
 
 // Sending SMS
 // require("./textMessage")(app);
-
 // Sending Email
 require("./email")(app);
 
@@ -55,7 +54,7 @@ app.get("/dataTaxiService", (req, res) => {
 if (true || process.env.NODE_ENV === "production") {
   app.use(express.static("./build"));
   app.get("*", (req, res) => {
-    res.sendFile(path.resolve('./', "build", "index.html"));
+    res.sendFile(path.resolve("./", "build", "index.html"));
   });
 }
 

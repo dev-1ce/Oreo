@@ -15,7 +15,7 @@ function Card({ article }) {
     <React.Fragment>
       <div className="container">
         <div className="row no-gutters">
-          <div className="col-lg-8 col-md-8 col-sm-12 col-12">
+          <div className="col-lg-8 col-md-8 col-sm-12 col-12 mx-auto">
             <div className="row no-gutters">
               <div className="col-lg-1 col-md-1 col-sm-1 col-1 pt-4 pr-0 mr-0">
                 <i className="fab fa-twitter fa-2x py-2 text-white text-center w-100" />
@@ -32,16 +32,18 @@ function Card({ article }) {
                       className="card-img-top img-fluid rounded"
                       alt="product"
                     />
-                    <a className="blog text-white font-weight-bold" href="/">
+                    <div className="blog text-white font-weight-bold">
                       {imageBlog}
-                    </a>
+                    </div>
                   </div>
                   <div className="card-footer px-0 pb-0">
-                    <h3>
-                      <a href="/" className="heading font-weight-bold ">
-                        {heading}
-                      </a>
-                    </h3>
+                    <Link to="/">
+                      <h3>
+                        <div className="heading font-weight-bold ">
+                          {heading}
+                        </div>
+                      </h3>
+                    </Link>
                     <p className="card-paragraph p-0">
                       {paragraph}
                       <Link to="/places">
