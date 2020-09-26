@@ -7,6 +7,7 @@
 .openode
 # testing
 /coverage
+/src/components/contact/config.js
 
 # production
 /build
