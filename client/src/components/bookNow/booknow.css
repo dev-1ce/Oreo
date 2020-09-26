@@ -9,7 +9,7 @@
   display: none;
 }
 .modal-form-header {
-  background: #fa4b2a;
+  background: var(--darkOrange);
 }
 .modal-form-heading {
   color: #ffffff;
@@ -47,6 +47,6 @@
     bottom: 2vh;
     right: 1vh;
     border-radius: 50%;
-    background: #fa4b2a;
+    background: var(--darkOrange);
   }
 }

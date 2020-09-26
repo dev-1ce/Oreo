@@ -1,5 +1,5 @@
 .foot-nav {
-  background: #fa4b2a;
+  background: var(--darkOrange);
 }
 .foot-nav li a {
   color: #fff;

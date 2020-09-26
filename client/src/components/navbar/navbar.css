@@ -1,5 +1,5 @@
 .nav-background {
-  background: #fa4b2a !important;
+  background: var(--darkOrange) !important;
 }
 .navbar-item {
   border-left: 0.1px solid #e5e5e5;

@@ -13,7 +13,7 @@
   top: 3em;
   left: 0;
   padding: 0.3em 1.8em;
-  background: #fa4b2a;
+  background: var(--darkOrange);
   font-family: "Roboto Condensed", sans-serif !important;
 }
 .card-paragraph {
@@ -22,7 +22,7 @@
   font-family: "Open Sans", sans-serif !important;
 }
 h3 .heading {
-  color: #fa4b2a;
+  color: var(--darkOrange);
   font-family: "Roboto Condensed", sans-serif !important;
 }
 .card-paragraph .sub-heading {
