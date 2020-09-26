@@ -5,11 +5,11 @@
   max-height: 150px;
   max-width: 150px;
 }
-.call-button {
-  display: none;
-}
 .modal-form-header {
   background: var(--darkOrange);
+}
+.call-button {
+  display: none;
 }
 .modal-form-heading {
   color: #ffffff;

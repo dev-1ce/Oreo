@@ -8,6 +8,10 @@
 .img-block {
   position: relative;
 }
+h3 .heading {
+  color: var(--darkOrange);
+  font-family: "Roboto Condensed", sans-serif !important;
+}
 .blog {
   position: absolute;
   top: 3em;
@@ -21,10 +25,7 @@
   font-size: 15px !important;
   font-family: "Open Sans", sans-serif !important;
 }
-h3 .heading {
-  color: var(--darkOrange);
-  font-family: "Roboto Condensed", sans-serif !important;
-}
+
 .card-paragraph .sub-heading {
   color: #777777;
   font-family: "Roboto Condensed", sans-serif !important;

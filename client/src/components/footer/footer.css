@@ -2,14 +2,7 @@
   background: #121212;
   padding: 3em 0;
 }
-.footer h6 {
-  font-size: 1.7em;
-  background: var(--darkOrange);
-  padding: 0.5em 1.7em;
-  font-weight: 700;
-  color: #fff;
-  font-family: "Roboto Condensed", sans-serif;
-}
+
 .footer p {
   font-size: 0.875em;
   color: #fff;
@@ -19,9 +12,7 @@
 .footer-middle p {
   margin: 0;
 }
-.footer-middle a {
-  color: var(--darkOrange);
-}
+
 .footer h4 {
   font-size: 1.7em;
   color: rgb(223, 209, 209);
@@ -36,9 +27,21 @@
   line-height: 1.8em;
   font-family: "Roboto Condensed", sans-serif;
 }
+.footer h6 {
+  font-size: 1.7em;
+  background: var(--darkOrange);
+  padding: 0.5em 1.7em;
+  font-weight: 700;
+  color: #fff;
+  font-family: "Roboto Condensed", sans-serif;
+}
+.footer-middle a {
+  color: var(--darkOrange);
+}
 .footer-right li:hover {
   color: var(--darkOrange) !important;
 }
+
 .footer-right li {
   display: block;
 }

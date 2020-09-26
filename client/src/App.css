@@ -8,6 +8,9 @@ body {
   font-family: "Raleway-Regular" !important;
   src: url(.././src/fonts/glyphicons-halflings-regular.ttf) format("truetype");
 }
+:root {
+  --darkOrange: #101658;
+}
 ::-webkit-scrollbar {
   width: 10px;
 }
