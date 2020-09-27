@@ -1,6 +1,6 @@
 <h1 align= "center"><b>Vinayaka Travels</b></h1>
 
-Planning a trip to Varanasi?
+<p align="center">Planning a trip to Varanasi?</p>
 
 <p align="center">Book a cab in Varanasi with us for the lowest fare and most efficient car hire and taxi service. Hire us to visit Kashi Vishwanath, Ganga Aarti, Sarnath Darshan and many more places inside as well as near Varanasi and take your touring experience to another level.</p>
 
@@ -54,5 +54,6 @@ Check in browser on http://localhost:8080/
 <img width=20% src="https://avatars1.githubusercontent.com/u/14235781?s=400&u=04e682f0022b55e24740ebd9ed4a22dd9f1b95cd&v=4">
 </p>
 <p align="center"><a href="https://github.com/DEVAbhinav"><b>Abhinav Pandey</b></h4></a></p>
-
-### **Made with 💖 for Kashi**
+<h5 align="center">
+Made with 💖 for Kashi
+</h5>
