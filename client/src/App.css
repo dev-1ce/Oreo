@@ -9,7 +9,7 @@ body {
   src: url(.././src/fonts/glyphicons-halflings-regular.ttf) format("truetype");
 }
 :root {
-  --darkOrange: #101658;
+  --darkOrange: #fa4b2a;
 }
 ::-webkit-scrollbar {
   width: 10px;
