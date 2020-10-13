@@ -1,35 +1,59 @@
-/* .carousel-custom {
-  background-image: url("../../images/car.png"),
-    linear-gradient(
-      to bottom,
-      #e5e5e5,
-      #e5e5e5,
-      #e5e5e5,
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
-    );
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  font-family: "Roboto Condensed", sans-serif !important;
-} */
+.card-body {
+  background: #ffecd3 !important;
+}
+.card {
+  border: none !important;
+}
 .carousel-custom {
-  background-image: linear-gradient(
-    to bottom,
-    #e5e5e5,
-    #e5e5e5,
-    #e5e5e5,
-    rgba(0, 0, 0, 0.5),
-    rgba(0, 0, 0, 0.5)
-  );
+  background: #ffecd3 !important;
   font-family: "Roboto Condensed", sans-serif !important;
 }
 .carousel-custom p {
   font-family: "Roboto Condensed", sans-serif !important;
 }
-/* .caption {
-  
-} */
-.carousel-height {
-  height: 80vh !important;
+.book-now-button,
+.call-now-button {
+  font-family: "Roboto Condensed", sans-serif !important;
+}
+.call-now-button {
+  background-image: linear-gradient(
+    to right,
+    #ff9933,
+    hsl(32, 100%, 62%),
+    #ffa43e,
+    #ffa43e,
+    #ff9933
+  );
+}
+.bg-home {
+  background-image: url("../../images/homePageWallpaper.png"),
+    linear-gradient(
+      to bottom,
+      transparent,
+      transparent,
+      transparent,
+      transparent,
+      transparent,
+      #fff9f2,
+      #fff8ef,
+      #fff7ef,
+      #f7e2c7,
+      #f7d7ad,
+      #ffd298,
+      #ffcd8c
+    );
+  background-size: contain;
+  background-position: center;
+  height: 90vh;
+  /* background: tomato; */
+}
+.table-headings {
+  background: var(--darkOrange);
+}
+.center-aligned {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  align-items: center;
 }

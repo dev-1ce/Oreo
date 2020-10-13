@@ -1,12 +1,12 @@
 import React from "react";
 import HomeCarousel from "./HomeCarousel";
-import HomeCards from "./HomeCards";
+import Quotes from "./Quotes";
 
 function Home() {
   return (
     <React.Fragment>
-      <HomeCarousel />
-      <HomeCards />
+      <Quotes />
+      <HomeCarousel />      
     </React.Fragment>
   );
 }

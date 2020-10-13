@@ -2,14 +2,13 @@ html,
 body {
   font-family: "Raleway-Regular";
   font-size: 100%;
-  background: #e5e5e5 !important;
 }
 @font-face {
   font-family: "Raleway-Regular" !important;
   src: url(.././src/fonts/glyphicons-halflings-regular.ttf) format("truetype");
 }
 :root {
-  --darkOrange: #fa4b2a;
+  --darkOrange: #ffa43e;
 }
 ::-webkit-scrollbar {
   width: 10px;
@@ -19,7 +18,7 @@ body {
   border-radius: 10px;
 }
 ::-webkit-scrollbar-thumb {
-  background: #fa4b2a;
+  background: #ffa43e;
   border-radius: 10px;
 }
 ::placeholder {
