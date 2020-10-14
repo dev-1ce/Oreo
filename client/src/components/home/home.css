@@ -15,14 +15,17 @@
 .call-now-button {
   font-family: "Roboto Condensed", sans-serif !important;
 }
+.book-now-button{
+    background: #FFF2E0;
+}
 .call-now-button {
   background-image: linear-gradient(
     to right,
-    #ff9933,
-    hsl(32, 100%, 62%),
+    #f57e08,
     #ffa43e,
     #ffa43e,
-    #ff9933
+    #ffa43e,
+    #f5810c
   );
 }
 .bg-home {
@@ -56,4 +59,44 @@
   flex-direction: column;
   height: 100%;
   align-items: center;
+}
+.center-aligned-home {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  align-items: center;
+}
+
+/* Blogs */
+#news{
+  padding: 100px 0px;
+}
+.card-news{
+  box-shadow: 5px 5px 20px rgba(0,0,0,0.15);
+}
+.mutual-heading{
+    font-family: "Roboto Condensed", sans-serif !important;
+    border-bottom: 3px solid var(--darkOrange);
+    width: 15%;
+}
+
+@media only screen and (max-width: 768px){
+    .bg-home {
+        background-image: linear-gradient(
+            to bottom,
+            transparent,
+            transparent,
+            transparent,
+            transparent,
+            transparent,
+            #fff9f2,
+            #fff8ef,
+            #fff7ef,
+            #f7e2c7,
+            #f7d7ad,
+            #ffd298,
+            #ffcd8c
+          );        
+      }
 }
