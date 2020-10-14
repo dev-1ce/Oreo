@@ -4,6 +4,7 @@ import HomeCarousel from "./HomeCarousel";
 import Quotes from "./Quotes";
 import Buttons from "./Buttons";
 import Package from "./Package";
+import Blogs from "./Blogs";
 
 function Home() {
   return (
@@ -16,6 +17,7 @@ function Home() {
         </div>        
       </div>    
       <Package />  
+      <Blogs />
     </React.Fragment>
   );
 }

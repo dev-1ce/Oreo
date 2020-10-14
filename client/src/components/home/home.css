@@ -70,7 +70,7 @@
 
 /* Blogs */
 #news{
-  padding: 100px 0px;
+  background: #ffecd3;
 }
 .card-news{
   box-shadow: 5px 5px 20px rgba(0,0,0,0.15);
@@ -99,4 +99,11 @@
             #ffcd8c
           );        
       }
+}
+.blogs-heading{
+  color: var(--darkOrange);
+  font-family: "Roboto Condensed", sans-serif !important;
+}
+.blogs-paragraph{
+  font-size: 15px !important;
 }

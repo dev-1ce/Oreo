@@ -13,16 +13,16 @@ function Package() {
             </div>
             <div className="row">
                 <div className="col-lg-3 col-md-3 col-sm-6 col-6">
-                    <img src={One} alt="Airport" className="rounded img-fluid"/>
+                    <img src={One} alt="Airport" className="rounded mb-3 img-fluid"/>
                 </div>
                 <div className="col-lg-3 col-md-3 col-sm-6 col-6">
-                    <img src={Two} alt="Allahabad" className="rounded img-fluid"/>
+                    <img src={Two} alt="Allahabad" className="rounded mb-3 img-fluid"/>
                 </div>
                 <div className="col-lg-3 col-md-3 col-sm-6 col-6">
-                    <img src={Three} alt="Gaya" className="rounded img-fluid"/>
+                    <img src={Three} alt="Gaya" className="rounded mb-3 img-fluid"/>
                 </div>
                 <div className="col-lg-3 col-md-3 col-sm-6 col-6">
-                    <img src={Four} alt="Vindhayachal" className="rounded img-fluid"/>
+                    <img src={Four} alt="Vindhayachal" className="rounded mb-3 img-fluid"/>
                 </div>
             </div>
         </div>

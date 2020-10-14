@@ -1,80 +1,46 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import { DetailsContext } from "../../context/context";
 
 function Blogs() {
+    const { homeBlogs } = useContext(DetailsContext);
+    const { article } = homeBlogs;
     return (
         <React.Fragment>
-          <div id="news">
-            <div class="container">
-            <p class="text-center grey-colored-text-18 font-weight-bold">Latest news</p>
-            <h1 class="text-dark display-4 font-weight-bold text-center mb-5 mobile-heading">Our latest news</h1>
-            <div class="row">
-                <div class="col-lg-4 col-md-4 col-sm-12 col-12 element-to-hide animation-test">
-                <div class="card card3 card1 margin-buttons">
-                    <img src="./images/blog-img-1.jpg" alt="" class="img-fluid card-img-top" />
-                    <div class="card-body">
-                    <div class="row mt-4">
-                        <div class="col-lg-5 col-md-5 col-sm-5 col-5">
-                        <div class="grey-colored-text-18">Jan 20, 2020</div>
-                        </div>
-                        <div class="col-lg-7 col-md-7 col-sm-7 col-7 d-flex justify-content-end">
-                        <div class="grey-colored-text-18">
-                            <i class="fa fa-comment-o"></i> 22&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            <i class="fa fa-heart-o"></i> 112
-                        </div>
-                        </div>
-                    </div>
-                    <h5 class="text-dark font-weight-bold mt-2">Keep it simple and beautiful, fun and functional</h5>
-                    <p class="grey-colored-text-18">Best landing for your app showcase Follow other investors, discover companies to believe in.</p>
-                    <button class="btn btn-outline-styling mt-3">Read More</button>
-                    </div>
-                </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-12 col-12 element-to-hide animation-test">
-                <div class="card card3 card1 margin-buttons">
-                    <img src="./images/blog-img-2.jpg" alt="" class="img-fluid card-img-top" />
-                    <div class="card-body">
-                    <div class="row mt-4">
-                        <div class="col-lg-5 col-md-5 col-sm-5 col-5">
-                        <div class="grey-colored-text-18">Jan 20, 2020</div>
-                        </div>
-                        <div class="col-lg-7 col-md-7 col-sm-7 col-7 d-flex justify-content-end">
-                        <div class="grey-colored-text-18">
-                            <i class="fa fa-comment-o"></i> 22&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            <i class="fa fa-heart-o"></i> 112
-                        </div>
-                        </div>
-                    </div>
-                    <h5 class="text-dark font-weight-bold mt-2">Keep it simple and beautiful, fun and functional</h5>
-                    <p class="grey-colored-text-18">Best landing for your app showcase Follow other investors, discover companies to believe in.</p>
-                    <button class="btn btn-outline-styling mt-3">Read More</button>
-                    </div>
-                </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-12 col-12 element-to-hide animation-test">
-                <div class="card card3 card1 margin-buttons">
-                    <img src="./images/blog-img-3.jpg" alt="" class="img-fluid card-img-top" />
-                    <div class="card-body">
-                    <div class="row mt-4">
-                        <div class="col-lg-5 col-md-5 col-sm-5 col-5">
-                        <div class="grey-colored-text-18">Jan 20, 2020</div>
-                        </div>
-                        <div class="col-lg-7 col-md-7 col-sm-7 col-7 d-flex justify-content-end">
-                        <div class="grey-colored-text-18">
-                            <i class="fa fa-comment-o"></i> 22&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            <i class="fa fa-heart-o"></i> 112
-                        </div>
-                        </div>
-                    </div>
-                    <h5 class="text-dark font-weight-bold mt-2">Keep it simple and beautiful, fun and functional</h5>
-                    <p class="grey-colored-text-18">Best landing for your app showcase Follow other investors, discover companies to believe in.</p>
-                    <button class="btn btn-outline-styling mt-3">Read More</button>
-                    </div>
-                </div>
-                </div>
+          <div id="news" >
+            <div className="container py-3">            
+            <div className="text-dark my-5 pt-4">
+                <h2 className="mutual-heading font-weight-bold">Popular Destinations</h2>
             </div>
+                <div className="row">
+                    {article.map(blog => {
+                        return (
+                            <div className="col-lg-4 col-md-4 col-sm-12 col-12">
+                                <div className="card card-news mb-4">
+                                    <img src={blog.image} alt={blog.name} className="img-fluid card-img-top" />
+                                    <div className="card-body">
+                                    <div className="row">
+                                        <div className="col-lg-5 col-md-5 col-sm-5 col-5">
+                                            <div className="text-muted">{blog.date}</div>
+                                        </div>
+                                        <div className="col-lg-7 col-md-7 col-sm-7 col-7 d-flex justify-content-end">
+                                        <div className="text-muted">
+                                            <i className="fa fa-comment-o"></i> {blog.comments}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                            <i className="fa fa-heart-o"></i> {blog.likes}
+                                        </div>
+                                        </div>
+                                    </div>
+                                    <h3 className="font-weight-bold blogs-heading mt-2">{blog.name}</h3>
+                                    <p className="text-dark blogs-paragraph">{blog.paragraph}</p>
+                                    <hr className="py-0 my-0"/>
+                                    <button className="btn call-now-button mt-2 font-weight-bold text-white px-5 text-center w-100 mb-2">&#x20B9;{blog.price}</button>
+                                    </div>
+                                </div>
+                            </div>  
+                        )
+                    })}
+                </div>
             </div>
       </div>
-
         </React.Fragment>
     )
 }

@@ -35,7 +35,7 @@ function App() {
           /> */}
         </Switch>
         <Footer />
-        <BookNow />
+        {/* <BookNow /> */}
       </DetailsProvider>
     </React.Fragment>
   );
