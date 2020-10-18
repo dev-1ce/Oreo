@@ -5,3 +5,4 @@
 .node_modules
 .openode
 config/
+.server/node_modules

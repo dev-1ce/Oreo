@@ -25,7 +25,7 @@ function NavbarComponent() {
       </div> */}
       <Navbar expand="lg" className="nav-background py-0" sticky="top">
         <Navbar.Brand href="/">
-          <span className="text-white font-weight-bold">Taxi in Varanasi</span>
+          <span className="text-white font-weight-bold">Outstation Taxi service</span>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
