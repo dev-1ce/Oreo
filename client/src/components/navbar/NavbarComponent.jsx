@@ -1,12 +1,28 @@
-import React from "react";
+import React, {useState} from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import "./navbar.css";
 import { NavLink } from "react-router-dom";
 
 function NavbarComponent() {
+  // const [show, setShow] = useState(true);
+  // const handleClose = () => setShow(false);
+  // const handleShow = () => setShow(true);
+  // let btn_class = show ? "widthHun" : "widthZero"
   return (
     <React.Fragment>
+      {/* <div className={btn_class}>
+        <div className="overlay">
+          <a href="javascript:void(0)" className="closebtn" onclick={handleClose}>&times;</a>
+          <div className="overlay-content">
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Clients</a>
+            <a href="#">Contact</a>
+          </div>
+        </div>
+        <span onclick={handleShow}>open</span>
+      </div> */}
       <Navbar expand="lg" className="nav-background py-0" sticky="top">
         <Navbar.Brand href="/">
           <span className="text-white font-weight-bold">Taxi in Varanasi</span>

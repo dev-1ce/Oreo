@@ -9,8 +9,8 @@ function Quotes(){
     "Planning a trip to varansi? Do it with taxi in varanasi",
     "Get the best out of an unplanned trip with us",
     "Panic mode : OFF! ❌ ESSENTIALS ARE ON! ✔️",
-    "We partnered up with city's top car and best can driver to give you an amazing experience round the town",
     "Enjoy a hassle free ride in our frequently sanitized cabs",  
+    "We partnered up with city's top car and best can driver to give you an amazing experience round the town",    
   ];
   useEffect(() => {
     const interval = setInterval(() => {

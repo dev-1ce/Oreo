@@ -4,11 +4,13 @@ import Varanasi from "../../images/varanasi.jpg";
 import SubDetails from "../mutual/SubDetails";
 import axios from "axios";
 
-function About() {
+function About({match}) {
+  const route = match.params.name;
+  console.log(route)
   const [data, setData] = useState({});
   const dataAbout = async () => {
     try {
-      var url = "/dataAbout";
+      var url = `/${route}`;
       var request = {
         url,
         method: "get",
@@ -22,7 +24,7 @@ function About() {
   };
   useEffect(() => {
     dataAbout();
-  }, []);
+  }, [data]);
 
   const { title, intro, article } = data;
   return (

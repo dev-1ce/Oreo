@@ -34,19 +34,19 @@ require("./email")(app);
 // });
 
 // Serving of Data From Backend
-app.get("/dataAbout", (req, res) => {
+app.get("/about", (req, res) => {
   res.json(dataAbout);
 });
-app.get("/dataKashi", (req, res) => {
+app.get("/kashiVishwanath", (req, res) => {
   res.json(dataKashi);
 });
-app.get("/dataPlaces", (req, res) => {
+app.get("/places", (req, res) => {
   res.json(dataPlaces);
 });
-app.get("/dataCarHire", (req, res) => {
+app.get("/carHire", (req, res) => {
   res.json(dataCarHire);
 });
-app.get("/dataTaxiService", (req, res) => {
+app.get("/taxiService", (req, res) => {
   res.json(dataTaxiService);
 });
 

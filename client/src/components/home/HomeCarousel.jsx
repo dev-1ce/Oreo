@@ -31,7 +31,7 @@ function HomeCarousel() {
                     <div className="col-lg-6 col-md-12 col-sm-12 col-12 px-2">
                       <div className="center-aligned">
                       <h3 className="text-dark font-weight-bold">{slide.name}</h3>
-                      <p className="text-dark text-center pb-3">{slide.paragraph}</p>
+                      <p className="text-dark text-center pb-3 blogs-paragraph">{slide.paragraph}</p>
                       <div className="table-responsive">
                         <table className="table table-bordered">
                           <thead>
