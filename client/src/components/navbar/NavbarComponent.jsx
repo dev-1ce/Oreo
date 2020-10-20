@@ -3,6 +3,7 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import "./navbar.css";
 import { NavLink } from "react-router-dom";
+import Logo from "../../images/main-logo.png"
 
 function NavbarComponent() {
   // const [show, setShow] = useState(true);
@@ -25,6 +26,7 @@ function NavbarComponent() {
       </div> */}
       <Navbar expand="lg" className="nav-background py-0" sticky="top">
         <Navbar.Brand href="/">
+          <img src={Logo} alt="Vinayak Travels" className="img-fluid"/>
           <span className="text-white font-weight-bold">Outstation Taxi service</span>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -95,8 +97,7 @@ function NavbarComponent() {
             </NavLink>
           </Nav>
         </Navbar.Collapse>
-      </Navbar>
-      {/* {console.clear()} */}
+      </Navbar>      
     </React.Fragment>
   );
 }

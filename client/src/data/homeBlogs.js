@@ -16,7 +16,7 @@ export const DataHomeBlogs = {
         image: "../images/newsTwo.png",
         name: "Sarnath Darshan",   
         paragraph:
-        "Book a car rental in varanasi for sarnath tour to have the most peaceful and calming experience at minimal rate. Some must visit sightseeing places in sarnath include Dhamek Stupa, Ashoka Pillar, Chaukhandi Stupa and Dharmarajika Stupa.",        
+        "Book a car rental in varanasi for sarnath tour to have the peaceful and calming experience at minimal rate. Some must visit sightseeing places in sarnath include Dhamek Stupa, Ashoka Pillar, Chaukhandi Stupa and Dharmarajika Stupa.",        
         date:"Sept 2020",
         likes: "30",
         comments: "8",

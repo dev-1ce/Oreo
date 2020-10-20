@@ -11,14 +11,14 @@ function Footer() {
         <div className="container">
           <div className="row">
             <div className="col-lg-4 col-md-4 col-sm-12 col-12 footer-left pb-3">
-              <h6>Har Har Mahadev!</h6>              
-            </div>
-            <div className="col-lg-4 col-md-4 col-sm-12 col-12 footer-middle pb-3 px-5">
+              <h6>Har Har Mahadev!</h6> 
               <p className="font-middle">
                 Since the dawn of time people have come to varanasi to attain salvation and enhancing this  experience with the best outstation taxi service is just the cherry on the top. We are available 24*7 and have been providing the finest outstation taxi service since 1986.
               </p>
-              <p className="font-middle">Har Har Mahadev!!</p>
-              <h4 className="mt-3">We Love You</h4>
+              <p className="font-middle">Har Har Mahadev!!</p>             
+            </div>
+            <div className="col-lg-4 col-md-4 col-sm-12 col-12 footer-middle pb-3 px-5">              
+              <h4>We Love You</h4>
               <div className="mid-btm ">
                 <p className="font-middle">
                   Travelling with your entire family bua,masi,dadi,baba and siblings don’t worry we've got that covered travel in minibuses and enjoy your trip with us without any worry. Had an impromptu 6 friends trip ride in style with our brand new XUV. Planning a romantic weekend getaway? sedan would make an excellent choice.
