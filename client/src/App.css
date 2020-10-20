@@ -1,11 +1,18 @@
 html,
-body {
-  font-family: "Raleway-Regular";
+body {  
   font-size: 100%;
 }
 @font-face {
-  font-family: "Raleway-Regular" !important;
-  src: url(.././src/fonts/glyphicons-halflings-regular.ttf) format("truetype");
+  font-family: Avenir-bold;
+  src: url(.././src/font/AvenirNextLTPro-Bold.otf);
+}
+@font-face {
+  font-family: Avenir-medium;
+  src: url(.././src/font/AvenirNextLTPro-Medium.otf);
+}
+@font-face {
+  font-family: Avenir-regular;
+  src: url(.././src/font/AvenirNextLTPro-Regular.otf);
 }
 :root {
   --darkOrange: #ffa43e;
@@ -28,9 +35,26 @@ li {
   list-style: none;
   margin: 0;
 }
-p {
+h1,h2,h3,h4,h5,h6{
+  font-family: Avenir-bold;
+}
+.font-bold {
   margin: 0;
-  font-family: "Open Sans", sans-serif !important;
+  font-family: Avenir-bold;
+}
+.font-medium {
+  margin: 0;
+  font-family: Avenir-medium;
+}
+.font-regular {
+  margin: 0;
+  font-family: Avenir-regular;
+}
+.font-14{
+  font-size: 14px;
+}
+.font-15{
+  font-size: 15px;
 }
 a:hover {
   text-decoration: none !important;

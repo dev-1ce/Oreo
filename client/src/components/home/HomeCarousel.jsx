@@ -31,7 +31,7 @@ function HomeCarousel() {
                     <div className="col-lg-6 col-md-12 col-sm-12 col-12 px-2">
                       <div className="center-aligned">
                       <h3 className="text-dark font-weight-bold">{slide.name}</h3>
-                      <p className="text-dark text-center pb-3 blogs-paragraph">{slide.paragraph}</p>
+                      <p className="text-dark text-center pb-3 blogs-paragraph font-medium">{slide.paragraph}</p>
                       <div className="table-responsive">
                         <table className="table table-bordered">
                           <thead>
@@ -57,12 +57,12 @@ function HomeCarousel() {
                             <tr className="pb-0">
                               <td className="bg-white">
                                 <p className="text-center font-weight-bold text-blue py-0 my-0">
-                                  {slide.city == "-" ? <span>{slide.city}</span> : <span>&#x20B9;{slide.city}km/day</span>}
+                                  {slide.city == "-" ? <span>{slide.city}</span> : <span>&#x20B9;{slide.city}<span className="font-regular font-14">km/day</span></span>}
                                 </p>
                               </td>
                               <td className="bg-white">
                                 <p className="text-center font-weight-bold text-blue py-0 my-0">
-                                  &#x20B9;{slide.outstation}km/hr
+                                  &#x20B9;{slide.outstation}<span className="font-regular font-14">km/hr</span>
                                 </p>
                               </td>
                               <td className="bg-white">

@@ -3,9 +3,9 @@ export const DataHomeBlogs = {
       {
         id: 1,
         image: "../images/newsOne.jpg",
-        name: "Kashi Vishwanath Darshan",   
+        name: "Kashi Vishwanath",   
         paragraph:
-        "Hire Cab For Kashi Vishwanath Darshan at 750 Rs only. Get best deals and amazing offer. Get a glimpse of jyotirlinga and the majestic aarti held every day.",        
+        "Get car rental in Varanasi from varanasi airport to Kashi Vishwanath, One of the most prominent temples, at just Rs 750. Get a chance to see one of the 12 jyotirlingas and experience the majestic aarti held at kashi vishwanath every day.",
         date:"August 2020",
         likes: "20",
         comments: "5",
@@ -16,7 +16,7 @@ export const DataHomeBlogs = {
         image: "../images/newsTwo.png",
         name: "Sarnath Darshan",   
         paragraph:
-        "Get a Cab rental for Sarnath tour At Rs 900 only enjoy a full tour of sarnath. Popular sightseeing places in sarnath include Dhamek Stupa, Ashoka Pillar, Chaukhandi Stupa and Dharmarajika Stupa.",        
+        "Book a car rental in varanasi for sarnath tour to have the most peaceful and calming experience at minimal rate. Some must visit sightseeing places in sarnath include Dhamek Stupa, Ashoka Pillar, Chaukhandi Stupa and Dharmarajika Stupa.",        
         date:"Sept 2020",
         likes: "30",
         comments: "8",
@@ -25,9 +25,9 @@ export const DataHomeBlogs = {
       {
         id: 3,
         image: "../images/newsThree.png",
-        name: "Mandir Darshan",   
+        name: "Durga Mandir",   
         paragraph:
-          "Car rent for Durga Mandir Darshan Rs 800. Enjoy a hassle free trip to one of the most popular temple in varanasi . Get a chance to witness the exquisite aarti held here everyday.",        
+          "Get a car rental in varanasi for durga mandir darshan and enjoy a hassle trip to the most fascinating temple in town. Witness the exquisite aarti held here everyday and have the time your life while you are here.",        
         date:"August 2020",
         likes: "15",
         comments: "4",

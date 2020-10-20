@@ -7,7 +7,7 @@ function Copyright() {
       <div className="copyright my-0">
         <div className="container">
           <p className="text-center">
-            © 2018 Travel Portal. All rights reserved | Made with{" "}
+            © 2020 Travel Portal. All rights reserved | Made with{" "}
             <span role="img" aria-label="heart">
               💖
             </span>{" "}

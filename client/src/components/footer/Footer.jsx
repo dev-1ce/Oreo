@@ -11,21 +11,17 @@ function Footer() {
         <div className="container">
           <div className="row">
             <div className="col-lg-4 col-md-4 col-sm-12 col-12 footer-left pb-3">
-              <h6>Har Har Mahadev!</h6>
-              <p>
-                Varanasi is great city since ages and you who come here will be
-                equally pure as well. We just want you to know, For any help
-                that you may need at any time in varanasi, You can count on us.
-              </p>
-              <p>Har Har Mahadev!!</p>
+              <h6>Har Har Mahadev!</h6>              
             </div>
             <div className="col-lg-4 col-md-4 col-sm-12 col-12 footer-middle pb-3 px-5">
-              <h4>We Love You</h4>
+              <p className="font-middle">
+                Since the dawn of time people have come to varanasi to attain salvation and enhancing this  experience with the best outstation taxi service is just the cherry on the top. We are available 24*7 and have been providing the finest outstation taxi service since 1986.
+              </p>
+              <p className="font-middle">Har Har Mahadev!!</p>
+              <h4 className="mt-3">We Love You</h4>
               <div className="mid-btm ">
-                <p>
-                  If Travelling with 4 people then a sedan would be comfortable,
-                  for 6 an Innova is an excellent choice, and Any number of
-                  busses are eagerly waiting to welcome you.
+                <p className="font-middle">
+                  Travelling with your entire family bua,masi,dadi,baba and siblings don’t worry we've got that covered travel in minibuses and enjoy your trip with us without any worry. Had an impromptu 6 friends trip ride in style with our brand new XUV. Planning a romantic weekend getaway? sedan would make an excellent choice.
                 </p>
                 <a href="https://www.taxiinvaranasi.in/ ">
                   https://www.taxiinvaranasi.in/
@@ -51,7 +47,7 @@ function Footer() {
               </Link>
               <Link to="/">
                 <li className="text-white footer-li">
-                  Hire cab in Benaras city
+                  Kashi Vishwanath Darshan
                 </li>
               </Link>
               <Link to="/">
@@ -64,8 +60,7 @@ function Footer() {
                   Varanasi to Gaya cab rental
                 </li>
               </Link>
-            </div>
-            <div className="clearfix "></div>
+            </div>            
           </div>
         </div>
       </div>
