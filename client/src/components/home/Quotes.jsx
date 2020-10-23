@@ -27,7 +27,7 @@ function Quotes(){
   }
   return (
     <React.Fragment>
-      <div className="text-dark text-center py-2 mb-3 font-medium" style={{background: "#fff3cd"}}>{collection}</div>
+      <div className="text-brown text-center py-1 font-15 mb-3 font-regular" style={{background: "#fff3cd"}}>{collection}</div>
     </React.Fragment>
   );
 }

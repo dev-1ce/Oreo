@@ -6,8 +6,9 @@ import axios from "axios";
 
 function About({match}) {
   const route = match.params.name;
-  console.log(route)
+  // console.log(route)
   const [data, setData] = useState({});
+  const [mode, setMode] = useState('online');
   const dataAbout = async () => {
     try {
       var url = `/${route}`;
@@ -16,9 +17,13 @@ function About({match}) {
         method: "get",
       };
       const res = await axios(request);
-      const aboutf = await res.data;
-      setData(aboutf);
+      const result = await res.data;
+      setData(result);
+      localStorage.setItem("data", JSON.stringify(result))
     } catch (err) {
+      setMode('offline')
+      let collection = localStorage.getItem("data");
+      setData(JSON.parse(collection))
       console.log(err);
     }
   };
@@ -29,13 +34,20 @@ function About({match}) {
   const { title, intro, article } = data;
   return (
     <React.Fragment>
+      {
+        mode === 'offline' ?
+          <div className="alert alert-warning text-center font-medium" role="alert">
+              You are in offline mode or some issue with connectivity
+          </div>
+          : null
+      }
       <img src={Varanasi} alt="Varanasi" className="img-fluid" />
       <div className="container">
         <div className="col-lg-8 col-md-10 col-sm-12 col-12 grey-open-sans-text">
           <h1 className="main-heading mt-4">{title}</h1>
           {intro
             ? intro.map((introdetail, index) => {
-                return <p key={index}>{introdetail}</p>;
+                return <p key={index} className="font-regular">{introdetail}</p>;
               })
             : ""}
           {article
@@ -50,7 +62,7 @@ function About({match}) {
             at Minimum cost.
           </h2>
           <hr />
-          <div className="blog-post mb-3 mt-0">
+          <div className="blog-post mb-3 mt-0 font-medium">
             <i className="fas fa-user" /> 4500+ pickups&nbsp;&nbsp;&nbsp;
             <i className="fas fa-calendar" /> We will wait for
             you&nbsp;&nbsp;&nbsp;

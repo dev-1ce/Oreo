@@ -14,10 +14,10 @@ function Blogs() {
                 <div className="row">
                     {article.map(blog => {
                         return (
-                            <div className="col-lg-4 col-md-4 col-sm-12 col-12">
+                            <div className="col-lg-4 col-md-12 col-sm-12 col-12">
                                 <div className="card card-news mb-4">
                                     <img src={blog.image} alt={blog.name} className="img-fluid card-img-top" />
-                                    <div className="card-body">
+                                    <div className="card-body bg-white">
                                     <div className="row">
                                         <div className="col-lg-5 col-md-5 col-sm-5 col-5">
                                             <div className="text-muted font-medium">{blog.date}</div>
@@ -30,7 +30,7 @@ function Blogs() {
                                         </div>
                                     </div>
                                     <h3 className="font-weight-bold blogs-heading mt-2">{blog.name}</h3>
-                                    <p className="text-dark blogs-paragraph font-regular">{blog.paragraph}</p>
+                                    <p className="text-brown font-16 font-regular">{blog.paragraph}</p>
                                     <hr className="py-0 my-0"/>
                                     <button className="btn call-now-button mt-2 font-weight-bold text-white px-5 text-center w-100 mb-2 font-medium">&#x20B9;{blog.price}</button>
                                     </div>

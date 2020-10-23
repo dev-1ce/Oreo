@@ -24,15 +24,15 @@ function NavbarComponent() {
         </div>
         <span onclick={handleShow}>open</span>
       </div> */}
-      <Navbar expand="lg" className="nav-background py-0" sticky="top">
+      <Navbar expand="lg" className="nav-background py-0" sticky="top" collapseOnSelect={true} variant="dark">
         <Navbar.Brand href="/">
-          <img src={Logo} alt="Vinayak Travels" className="img-fluid"/>
+          <img src={Logo} alt="Vinayak Travels" className="img-fluid py-0 my-0"/>
           <span className="text-white font-weight-bold">Outstation Taxi service</span>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto">
-            <NavLink exact to="/" activeClassName="active">
+            <NavLink exact to="/" activeClassName="activeNav">
               <Nav.Link
                 href="/"
                 className="text-uppercase px-3 font-weight-bold navbar-item
@@ -41,7 +41,7 @@ function NavbarComponent() {
                 Home
               </Nav.Link>
             </NavLink>
-            <NavLink to="/kashiVishwanath" activeClassName="active">
+            <NavLink to="/kashiVishwanath" activeClassName="activeNav">
               <Nav.Link
                 href="/kashiVishwanath"
                 className="text-uppercase px-3 font-weight-bold navbar-item
@@ -50,7 +50,7 @@ function NavbarComponent() {
                 Kashi Vishwanath
               </Nav.Link>
             </NavLink>
-            <NavLink to="/places" activeClassName="active">
+            <NavLink to="/places" activeClassName="activeNav">
               <Nav.Link
                 href="/places"
                 className="text-uppercase px-3 font-weight-bold navbar-item
@@ -59,7 +59,7 @@ function NavbarComponent() {
                 Top 10 tourist places in Varanasi
               </Nav.Link>
             </NavLink>
-            <NavLink to="/carHire" activeClassName="active">
+            <NavLink to="/carHire" activeClassName="activeNav">
               <Nav.Link
                 href="/carHire"
                 className="text-uppercase px-3 font-weight-bold navbar-item
@@ -68,7 +68,7 @@ function NavbarComponent() {
                 Car Hire
               </Nav.Link>
             </NavLink>
-            <NavLink to="/taxiService" activeClassName="active">
+            <NavLink to="/taxiService" activeClassName="activeNav">
               <Nav.Link
                 href="/taxiService"
                 className="text-uppercase px-3 font-weight-bold navbar-item
@@ -77,7 +77,7 @@ function NavbarComponent() {
                 Taxi Service
               </Nav.Link>
             </NavLink>
-            <NavLink to="/about" activeClassName="active">
+            <NavLink to="/about" activeClassName="activeNav">
               <Nav.Link
                 href="/about"
                 className="text-uppercase
@@ -86,7 +86,7 @@ function NavbarComponent() {
                 About Us
               </Nav.Link>
             </NavLink>
-            <NavLink to="/contact" activeClassName="active">
+            <NavLink to="/contact" activeClassName="activeNav">
               <Nav.Link
                 href="/contact"
                 className="text-uppercase px-3 font-weight-bold navbar-item

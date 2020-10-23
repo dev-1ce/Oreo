@@ -2,20 +2,9 @@ html,
 body {  
   font-size: 100%;
 }
-@font-face {
-  font-family: Avenir-bold;
-  src: url(.././src/font/AvenirNextLTPro-Bold.otf);
-}
-@font-face {
-  font-family: Avenir-medium;
-  src: url(.././src/font/AvenirNextLTPro-Medium.otf);
-}
-@font-face {
-  font-family: Avenir-regular;
-  src: url(.././src/font/AvenirNextLTPro-Regular.otf);
-}
 :root {
   --darkOrange: #ffa43e;
+  --brown: #663d14;
 }
 ::-webkit-scrollbar {
   width: 10px;
@@ -25,22 +14,35 @@ body {
   border-radius: 10px;
 }
 ::-webkit-scrollbar-thumb {
-  background: #ffa43e;
+  background: var(--darkOrange);
   border-radius: 10px;
 }
 ::placeholder {
   font-family: "Roboto Condensed", sans-serif;
 }
-li {
-  list-style: none;
-  margin: 0;
-}
-h1,h2,h3,h4,h5,h6{
+@font-face {
   font-family: Avenir-bold;
+  src: url(.././src/font/AvenirNextLTPro-Bold.otf);
+}
+@font-face {
+  font-family: Avenir-demi;
+  src: url(.././src/font/AvenirNextLTPro-Demi.otf);
+}
+@font-face {
+  font-family: Avenir-medium;
+  src: url(.././src/font/AvenirNextLTPro-Medium.otf);
+}
+@font-face {
+  font-family: Avenir-regular;
+  src: url(.././src/font/AvenirNextLTPro-Regular.otf);
 }
 .font-bold {
   margin: 0;
   font-family: Avenir-bold;
+}
+.font-demi {
+  margin: 0;
+  font-family: Avenir-demi;
 }
 .font-medium {
   margin: 0;
@@ -50,12 +52,46 @@ h1,h2,h3,h4,h5,h6{
   margin: 0;
   font-family: Avenir-regular;
 }
+.font-12{
+  font-size: 12px;
+}
 .font-14{
   font-size: 14px;
 }
 .font-15{
   font-size: 15px;
 }
+.font-16{
+  font-size: 16px;
+}
+.font-17{
+  font-size: 17px;
+}
+.font-18{
+  font-size: 18px;
+}
+.font-19{
+  font-size: 19px;
+}
+.font-20{
+  font-size: 20px;
+}
+.font-25{
+  font-size: 25px;
+}
+.text-brown{
+  color: var(--brown);
+}
+.text-orange{
+  color: var(--darkOrange)
+}
 a:hover {
   text-decoration: none !important;
+}
+li {
+  list-style: none;
+  margin: 0;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: Avenir-bold;
 }

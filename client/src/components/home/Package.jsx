@@ -9,20 +9,28 @@ function Package() {
     return (
         <div className="container pb-5 mb-5">
             <div className="text-dark my-5 pt-4">
-                <h2 className="mutual-heading font-weight-bold">Packages</h2>
+                <h2 className="mutual-heading font-weight-bold font-bold">Packages</h2>
             </div>
             <div className="row">
                 <div className="col-lg-3 col-md-3 col-sm-6 col-6">
-                    <img src={One} alt="Airport" className="rounded mb-3 img-fluid"/>
+                    <a href="tel:+91-9935474730">
+                        <img src={One} alt="Airport" className="rounded mb-3 img-fluid"/>
+                    </a>
                 </div>
                 <div className="col-lg-3 col-md-3 col-sm-6 col-6">
-                    <img src={Two} alt="Allahabad" className="rounded mb-3 img-fluid"/>
+                    <a href="tel:+91-9935474730">
+                        <img src={Two} alt="Airport" className="rounded mb-3 img-fluid"/>
+                    </a>
                 </div>
                 <div className="col-lg-3 col-md-3 col-sm-6 col-6">
-                    <img src={Three} alt="Gaya" className="rounded mb-3 img-fluid"/>
+                    <a href="tel:+91-9935474730">
+                        <img src={Three} alt="Airport" className="rounded mb-3 img-fluid"/>
+                    </a>
                 </div>
                 <div className="col-lg-3 col-md-3 col-sm-6 col-6">
-                    <img src={Four} alt="Vindhayachal" className="rounded mb-3 img-fluid"/>
+                    <a href="tel:+91-9935474730">
+                        <img src={Four} alt="Airport" className="rounded mb-3 img-fluid"/>
+                    </a>
                 </div>
             </div>
         </div>

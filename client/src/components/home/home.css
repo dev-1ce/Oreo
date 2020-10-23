@@ -1,4 +1,4 @@
-.card-body {
+.carousel-image .card-body {
   background: #ffecd3 !important;
 }
 .card {
@@ -7,44 +7,18 @@
 .carousel-custom {
   background: #ffecd3 !important;  
 }
-/* .book-now-button,
-.call-now-button {
-  font-family: "Roboto Condensed", sans-serif !important;
-} */
 .book-now-button{
     background: #FFF2E0;
 }
 .call-now-button {
-  background-image: linear-gradient(
-    to right,
-    #f57e08,
-    #ffa43e,
-    #ffa43e,
-    #ffa43e,
-    #f5810c
-  );
+  background: url("../../images/button-bg.png");
+  background-size: cover;
+  background-position: center;  
 }
 .bg-home {
-  background-image: url("../../images/homePageWallpaper.png"),
-    linear-gradient(
-      to bottom,
-      transparent,
-      transparent,
-      transparent,
-      transparent,
-      transparent,
-      #fff9f2,
-      #fff8ef,
-      #fff7ef,
-      #f7e2c7,
-      #f7d7ad,
-      #ffd298,
-      #ffcd8c
-    );
+  background: url("../../images/background.png");
   background-size: contain;
-  background-position: center;
-  height: 90vh;
-  /* background: tomato; */
+  background-position: center;  
 }
 .table-headings {
   background: var(--darkOrange);
@@ -71,34 +45,41 @@
 .card-news{
   box-shadow: 5px 5px 20px rgba(0,0,0,0.15);
 }
-.mutual-heading{
-    font-family: "Roboto Condensed", sans-serif !important;
-    border-bottom: 3px solid var(--darkOrange);
-    width: 15%;
+.mutual-heading{    
+  border-bottom: 3px solid var(--darkOrange);
+  width: 15%;
 }
-
+.carousel-alignment{
+  text-align: left !important;
+}
 @media only screen and (max-width: 768px){
-    .bg-home {
-        background-image: linear-gradient(
-            to bottom,
-            transparent,
-            transparent,
-            transparent,
-            transparent,
-            transparent,
-            #fff9f2,
-            #fff8ef,
-            #fff7ef,
-            #f7e2c7,
-            #f7d7ad,
-            #ffd298,
-            #ffcd8c
-          );        
-      }
+  .bg-home {
+      background-image: linear-gradient(
+          to bottom,
+          transparent,
+          transparent,
+          transparent,
+          transparent,
+          transparent,
+          #fff9f2,
+          #fff8ef,
+          #fff7ef,
+          #f7e2c7,
+          #f7d7ad,
+          #ffd298,
+          #ffcd8c
+        );        
+  }
+  .carousel-alignment{
+    text-align: center !important;
+  }
 }
 .blogs-heading{
   color: var(--darkOrange);  
 }
-.blogs-paragraph{
-  font-size: 16px !important;  
-}
+/* .sticky-top{
+  position: -webkit-sticky;
+  position: sticky !important;
+  top: 100 !important;  
+  z-index: 2000;
+} */
