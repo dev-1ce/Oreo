@@ -79,7 +79,7 @@
   text-decoration: none !important;
 }
 .navbar-item:hover{
-  color: var(--brown);
+  color: var(--brown) !important;
 }
 .icon-size {
   font-size: 20px;
