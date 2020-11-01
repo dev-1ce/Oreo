@@ -14,7 +14,7 @@ function HomeCarousel() {
       
         <div className="container">
           <div className="carousel-custom">
-            <Carousel activeIndex={index} onSelect={handleSelect} fade controls={false} indicators={false}>
+            <Carousel activeIndex={index} onSelect={handleSelect} fade indicators={false}>
               {article.map(slide => (
                 <Carousel.Item className="carousel-custom">
                   <div className="row no-gutters">

@@ -1,10 +1,12 @@
 html,
 body {  
   font-size: 100%;
+  overflow-x: hidden !important;
 }
 :root {
   --darkOrange: #ffa43e;
   --brown: #663d14;
+  --darkBrown: #1a0f05;
 }
 ::-webkit-scrollbar {
   width: 10px;
@@ -100,4 +102,27 @@ h1,h2,h3,h4,h5,h6{
 }
 .bg-brown{
   background: var(--brown);
+}
+.bg-dark-brown{
+  background: var(--darkBrown);
+}
+
+/* Mutual */
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  letter-spacing: -0.004em;
+  padding-top: 1.5%;
+  padding-bottom: 1.5%;
+}
+h1.main-heading {
+  font-size: 36px;
+  font-family: "Roboto Condensed", sans-serif !important;
+}
+h2.sub-heading {
+  font-size: 30px;
+}
+h2.about-last-heading {
+  font-size: 24px;
+  font-family: "Roboto Condensed", sans-serif !important;
 }

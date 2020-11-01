@@ -1,5 +1,4 @@
 import React from "react";
-import "./subDetails.css";
 
 function SubDetails({ subDetails }) {
   return (

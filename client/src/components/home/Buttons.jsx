@@ -73,7 +73,7 @@ function Buttons() {
                       <div className="text-white font-bold font-18 text-center py-2">
                         <i className="fas fa-phone-alt text-white" /> &nbsp;Call Now
                       </div>
-                    </a>                                   
+                    </a>
                   </div>
                 </div>
               </div>

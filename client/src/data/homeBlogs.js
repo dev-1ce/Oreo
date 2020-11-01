@@ -2,7 +2,7 @@ export const DataHomeBlogs = {
     article: [
       {
         id: 1,
-        image: "../images/newsOne.jpg",
+        image: "../images/newsOne.png",
         name: "Kashi Vishwanath",   
         paragraph:
         "Get car rental in Varanasi from varanasi airport to Kashi Vishwanath, One of the most prominent temples, at just Rs 750. Get a chance to see one of the 12 jyotirlingas and experience the majestic aarti held at kashi vishwanath every day.",

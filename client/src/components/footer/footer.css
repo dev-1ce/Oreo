@@ -38,7 +38,7 @@
 .footer-middle a {
   color: var(--darkOrange);
 }
-.footer-right li:hover {
+li:hover {
   color: var(--darkOrange) !important;
 }
 
