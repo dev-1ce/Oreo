@@ -16,12 +16,7 @@ function App() {
       <NavbarComponent />
       <DetailsProvider>
         <Switch>
-          <Route exact path="/" component={Home} />
-          {/* <Route path="/kashiVishwanath" component={KashiVishwanath} />
-          <Route path="/places" component={Places} />
-          <Route path="/carHire" component={CarHire} />
-          <Route path="/taxiService" component={TaxiService} />
-          <Route path="/about" component={About} /> */}
+          <Route exact path="/" component={Home} />          
           <Route path="/contact" component={Contact} />
           <Route
             path="/:name"

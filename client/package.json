@@ -21,12 +21,13 @@
     "react-hook-google-maps": "0.0.3",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.3",
+    "react-sticky-box": "^0.9.3",
     "reactstrap": "^8.5.1",
     "sweetalert": "^2.1.2",
     "urlencode": "^1.1.0"
   },
   "scripts": {
-    "start": "react-scripts build && node ./server/app.js",
+    "start": "react-scripts start && node ./server/app.js",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
