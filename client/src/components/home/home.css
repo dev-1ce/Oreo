@@ -53,7 +53,7 @@
 .carousel-alignment{
   text-align: left !important;
 }
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 993px){
   .bg-home {
       background-image: linear-gradient(
           to bottom,
@@ -80,7 +80,12 @@
   }
 }
 .blogs-heading{
-  color: var(--darkOrange);  
+  position: absolute;
+  bottom: 4%;
+  left: 4%;
+}
+.blogs-img{
+  position: relative;
 }
 /* .sticky-top{
   position: -webkit-sticky;

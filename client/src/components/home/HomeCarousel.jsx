@@ -10,9 +10,8 @@ function HomeCarousel() {
     setIndex(selectedIndex);
   };
   return (
-    <React.Fragment>
-      
-        <div className="container">
+    <React.Fragment>      
+        <div className="container mt-3">
           <div className="carousel-custom">
             <Carousel activeIndex={index} onSelect={handleSelect} fade indicators={false}>
               {article.map(slide => (

@@ -3,8 +3,11 @@ const path = require("path");
 const dataAbout = require("./data/about.json");
 const dataKashi = require("./data/Kashi-Vishwanath-Darshan.json");
 const dataPlaces = require("./data/Top-10-Places-in-Varanasi.json");
-const dataCarHire = require("./data/carHire.json");
+const dataCarRental = require("./data/carHire.json");
 const dataTaxiService = require("./data/taxi-and-cab-booking-service-in-varanasi.json");
+const dataVidhayanchal = require("./data/vindhayachal.json");
+const dataGaya = require("./data/gaya.json");
+const dataAllahabad = require("./data/allahabad.json");
 const bodyParser = require("body-parser");
 
 // Init express
@@ -43,11 +46,20 @@ app.get("/kashiVishwanath", (req, res) => {
 app.get("/places", (req, res) => {
   res.json(dataPlaces);
 });
-app.get("/carHire", (req, res) => {
-  res.json(dataCarHire);
+app.get("/carRental", (req, res) => {
+  res.json(dataCarRental);
 });
 app.get("/taxiService", (req, res) => {
   res.json(dataTaxiService);
+});
+app.get("/vindhyachal", (req, res) => {
+  res.json(dataVidhayanchal);
+});
+app.get("/allahabad", (req, res) => {
+  res.json(dataAllahabad);
+});
+app.get("/gaya", (req, res) => {
+  res.json(dataGaya);
 });
 
 // Hoisting purpose

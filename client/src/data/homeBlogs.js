@@ -16,7 +16,7 @@ export const DataHomeBlogs = {
         image: "../images/newsTwo.png",
         name: "Sarnath Darshan",   
         paragraph:
-        "Book a car rental in varanasi for sarnath tour to have the peaceful and calming experience at minimal rate. Some must visit sightseeing places in sarnath include Dhamek Stupa, Ashoka Pillar, Chaukhandi Stupa and Dharmarajika Stupa.",        
+        "Book a car rental in varanasi for sarnath tour to have the most peaceful and calming experience at minimal rate. Some must visit sightseeing places in sarnath include Dhamek Stupa, Ashoka Pillar, Chaukhandi Stupa and Dharmarajika Stupa.",
         date:"Sept 2020",
         likes: "30",
         comments: "8",
@@ -27,7 +27,7 @@ export const DataHomeBlogs = {
         image: "../images/newsThree.png",
         name: "Durga Mandir",   
         paragraph:
-          "Get a car rental in varanasi for durga mandir darshan and enjoy a hassle trip to the most fascinating temple in town. Witness the exquisite aarti held here everyday and have the time your life while you are here.",        
+          "Get a car rental in varanasi for durga mandir darshan and enjoy a hassle free trip to one of the most famous temples in Varanasi dedicated to the goddess Durga. Witness the exquisite aarti held here and have the time your life while you are here.",
         date:"August 2020",
         likes: "15",
         comments: "4",

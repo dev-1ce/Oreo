@@ -2,8 +2,9 @@ import React, {useState} from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import "./navbar.css";
-import { NavLink } from "react-router-dom";
-import Logo from "../../images/main-logo.png"
+import { NavLink, Link } from "react-router-dom";
+import Logo from "../../images/main-logo.png";
+import NavDropdown from "react-bootstrap/NavDropdown"
 
 function NavbarComponent() {
   // const [show, setShow] = useState(true);
@@ -25,9 +26,9 @@ function NavbarComponent() {
         <span onclick={handleShow}>open</span>
       </div> */}
       <Navbar expand="lg" className="nav-background py-0" sticky="top" collapseOnSelect={true} variant="dark">
-        <Navbar.Brand href="/">
+        <Navbar.Brand href="/" className="mx-0">
           <img src={Logo} alt="Vinayak Travels" className="img-fluid py-0 my-0"/>
-          <span className="text-white font-weight-bold">Outstation Taxi service</span>
+          <span className="text-white font-bold">Outstation Taxi Service</span>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
@@ -35,69 +36,52 @@ function NavbarComponent() {
             <NavLink exact to="/" activeClassName="activeNav">
               <Nav.Link
                 href="/"
-                className="text-uppercase px-3 font-weight-bold navbar-item
+                className="font-medium font-17 px-3 navbar-item
                   text-white text-center"
               >
                 Home
               </Nav.Link>
             </NavLink>
-            <NavLink to="/kashiVishwanath" activeClassName="activeNav">
+            <NavDropdown title="Blogs" id="collasible-nav-dropdown" className="font-medium font-17 px-3 navbar-item text-white text-center active">
+              <div style={{background: '#FFECD3', border: 'none', borderRadius: '5px', color: '#663D14'}}>
+                <Link to="/blogs/kashiVishwanath" className="font-15 text-brown font-regular dropdown-item">                  
+                  KashiVishwanath                  
+                </Link>
+                <Link to="/blogs/places" className="font-15 text-brown font-regular dropdown-item">
+                  Top 10 places in Varanasi
+                </Link>
+              </div>
+            </NavDropdown>
+            <NavLink to="/blogs/carRental" activeClassName="activeNav">
               <Nav.Link
-                href="/kashiVishwanath"
-                className="text-uppercase px-3 font-weight-bold navbar-item
+                href="/blogs/carRental"
+                className="font-medium font-17 px-3 navbar-item
                   text-white text-center"
               >
-                Kashi Vishwanath
+                Rental cars
               </Nav.Link>
-            </NavLink>
-            <NavLink to="/places" activeClassName="activeNav">
-              <Nav.Link
-                href="/places"
-                className="text-uppercase px-3 font-weight-bold navbar-item
-                  text-white text-center"
-              >
-                Top 10 tourist places in Varanasi
-              </Nav.Link>
-            </NavLink>
-            <NavLink to="/carHire" activeClassName="activeNav">
-              <Nav.Link
-                href="/carHire"
-                className="text-uppercase px-3 font-weight-bold navbar-item
-                  text-white text-center"
-              >
-                Car Hire
-              </Nav.Link>
-            </NavLink>
-            <NavLink to="/taxiService" activeClassName="activeNav">
-              <Nav.Link
-                href="/taxiService"
-                className="text-uppercase px-3 font-weight-bold navbar-item
-                  text-white text-center"
-              >
-                Taxi Service
-              </Nav.Link>
-            </NavLink>
+            </NavLink>            
             <NavLink to="/about" activeClassName="activeNav">
               <Nav.Link
                 href="/about"
-                className="text-uppercase
-                  px-3 font-weight-bold navbar-item text-white text-center"
+                className="font-medium font-17
+                  px-3 navbar-item text-white text-center"
               >
                 About Us
               </Nav.Link>
             </NavLink>
-            <NavLink to="/contact" activeClassName="activeNav">
+            <NavLink to="/contact" activeClassName="activeLastNav">
               <Nav.Link
                 href="/contact"
-                className="text-uppercase px-3 font-weight-bold navbar-item
-                  navbar-item-last mx-auto text-white text-center"
+                className="font-medium font-17 px-3 navbar-last-item
+                  mx-auto text-white text-center bg-brown d-none d-lg-block"
               >
-                Contact
+                Get in Touch
               </Nav.Link>
             </NavLink>
           </Nav>
         </Navbar.Collapse>
-      </Navbar>      
+      </Navbar>
     </React.Fragment>
   );
 }

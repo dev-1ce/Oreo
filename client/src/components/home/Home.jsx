@@ -1,7 +1,6 @@
 import React from "react";
 import './home.css';
 import HomeCarousel from "./HomeCarousel";
-import Quotes from "./Quotes";
 import Buttons from "./Buttons";
 import Package from "./Package";
 import Blogs from "./Blogs";
@@ -14,8 +13,7 @@ function Home() {
         <title>
           Outstation Taxi Service in Varanasi | Vinayak travels | Car rental for local and outstation
         </title>
-      </Helmet>
-      <Quotes />
+      </Helmet>      
       <div className="bg-home center-aligned-home">
         <div>
           <HomeCarousel />

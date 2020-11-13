@@ -19,8 +19,9 @@ body {
   background: var(--darkOrange);
   border-radius: 10px;
 }
-::placeholder {
-  font-family: "Roboto Condensed", sans-serif;
+::selection {
+  color: var(--brown);
+  background: var(--darkOrange);
 }
 @font-face {
   font-family: Avenir-bold;
@@ -38,9 +39,14 @@ body {
   font-family: Avenir-regular;
   src: url(.././src/font/AvenirNextLTPro-Regular.otf);
 }
+::placeholder{
+  font-family: Avenir-regular;
+  color: var(--brown) !important;
+  font-size: 15px;
+}
 .font-bold {
   margin: 0;
-  font-family: Avenir-bold;
+  font-family: Avenir-bold !important;
 }
 .font-demi {
   margin: 0;
@@ -115,16 +121,19 @@ p {
   padding-top: 1.5%;
   padding-bottom: 1.5%;
 }
-h1.main-heading {
-  font-size: 36px;
-  font-family: "Roboto Condensed", sans-serif !important;
-}
 h2.sub-heading {
   font-size: 30px;
 }
-h2.about-last-heading {
-  font-size: 24px;
-  font-family: "Roboto Condensed", sans-serif !important;
+.modal-body{
+  background: '#FFFAF4' !important;
 }
-.vertical-align-helper:before{content:'';display:inline-block;height:100%;vertical-align:middle;margin-left:-5px}.vertical-align-helper>[class*=vertical-align--]{display:inline-block;width:100%}
-.vertical-align--s-middle{vertical-align:middle}
+.underlined-heading{
+  border-bottom: 3px solid var(--darkOrange);
+  width: 65%;
+}
+@media(max-width: 768px){
+  .underlined-heading{
+    border-bottom: 3px solid var(--darkOrange);
+    width: 100%;
+  }
+}
