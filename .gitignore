@@ -59,4 +59,4 @@ typings/
 
 .node_modules
 .openode
-config/
+# config/

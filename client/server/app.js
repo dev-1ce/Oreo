@@ -66,6 +66,7 @@ app.get("/gaya", (req, res) => {
 if (true || process.env.NODE_ENV === "production") {
   app.use(express.static("./build"));
   app.get("*", (req, res) => {
+    console.log("* endpoing express")
     res.sendFile(path.resolve("./", "build", "index.html"));
   });
 }
