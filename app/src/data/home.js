@@ -3,7 +3,7 @@ export const DataHome = {
     {
       id: 1,
       image: "../images/seden.png",
-      name: "Sedan",   
+      name: "4 People Sedan",   
       paragraph:
       "5 seater, air-conditioned, top rated drivers, spacious. Enjoy extra comfy hassle free air conditioned ride.",
       city: "2000",
@@ -13,7 +13,7 @@ export const DataHome = {
     {
       id: 2,
       image: "../images/luxuryCar.png",
-      name: "Luxury Sedan",   
+      name: "4 People Luxury Sedan",   
       paragraph:
       "5 seater, air-conditioned, top rated drivers, spacious. Enjoy extra comfy hassle free air conditioned ride.",
       city: "3500",
@@ -23,7 +23,7 @@ export const DataHome = {
     {
       id: 3,
       image: "../images/xuv.png",
-      name: "XUV",   
+      name: "7 People XUV",   
       paragraph:
       "7 seater, air-conditioned, extra luggage space, pocket friendly. Add comfort with quality. Enjoy extra space for you and your luggage as well.",
       city: "2800",
@@ -33,9 +33,9 @@ export const DataHome = {
     {
       id: 4,
       image: "../images/miniBus.png",
-      name: "Mini-Bus",   
+      name: "17 Seater Mini-Bus",   
       paragraph:
-        "30 seater, economical, air conditioning, ample space. For when you need extra space with a budget friendly ride.",
+        "17 seater, economical, air conditioning, ample space. For when you need extra space with a budget friendly ride.",
       city: "5000",
       outstation: "22",
       airport: "2000",
