@@ -1,5 +1,5 @@
 let nodemailer = require("nodemailer");
-const cred = require("./config");
+const cred = require("config");
 
 // Static folder
 // app.use("/public", express.static(path.join(__dirname, "public")));

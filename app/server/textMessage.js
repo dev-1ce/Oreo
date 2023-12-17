@@ -1,6 +1,6 @@
 var http = require("http");
 var urlencode = require("urlencode");
-const cred = require("./config");
+const cred = require("config");
 
 var number = cred.number;
 var username = cred.username;

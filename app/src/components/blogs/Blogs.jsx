@@ -9,12 +9,16 @@ import styles from "./styles.module.css";
 import { StickyContainer, Sticky } from "react-sticky"
 import { FaUserAlt, FaCommentDots} from "react-icons/fa";
 import { AiFillHeart, AiFillCalendar, AiFillEye} from "react-icons/ai";
+import kashi from './data/Kashi-Vishwanath-Darshan.json'
+import top from './data/Top-10-Places-in-Varanasi.json'
+import rental from './data/carHire.json'
+
 
 function Blogs({match}) {
   const route = match.params.name;
-  // console.log(route);
-  const [data, setData] = useState({});
+  let [data, setData] = useState({});
   const [mode, setMode] = useState('online');
+  
   const dataAbout = async () => {
     try {
       var url = `/${route}`;
@@ -22,21 +26,27 @@ function Blogs({match}) {
         url,
         method: "get",
       };
-      const res = await axios(request);
+      const res = await axios(route);
       const result = await res.data;
       setData(result);
       localStorage.setItem("data", JSON.stringify(result))
     } catch (err) {
-      setMode('offline')
       let collection = localStorage.getItem("data");
       setData(JSON.parse(collection))
       console.log(err);
     }
+    
   };
   useEffect(() => {
     dataAbout();
-  }, [data]);
-
+  }, [route]);
+  if(route ==="Kashi-Vishwanath-Darshan")
+  data = kashi;
+  else if(route === "carRental")
+  data = rental 
+  else 
+  data = top;
+  
   const { title, intro, article, keyword, description, pageName, image } = data;
   return (
     <React.Fragment>
@@ -61,6 +71,7 @@ function Blogs({match}) {
       <meta
         itemprop="image"
         content="https://www.taxiinvaranasi.in/images/logo.jpeg"
+        
       />
 
       <meta name="twitter:card" content="Summary" />

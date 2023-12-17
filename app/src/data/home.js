@@ -1,4 +1,5 @@
 export const DataHome = {
+  title:"Home",
   article: [
     {
       id: 1,
