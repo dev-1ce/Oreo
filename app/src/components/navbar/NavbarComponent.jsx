@@ -50,6 +50,12 @@ function NavbarComponent() {
                 <Link to="/blogs/places" className="font-15 text-brown font-regular dropdown-item">
                   Top 10 places in Varanasi
                 </Link>
+                <Link to="/blogs/Ghats" className="font-15 text-brown font-regular dropdown-item">
+                  Top Ghats
+                </Link>
+                <Link to="/blogs/Bhu" className="font-15 text-brown font-regular dropdown-item">
+                  BHU
+                </Link>
               </div>
             </NavDropdown>
             <NavLink to="/blogs/carRental" activeClassName="activeNav">

@@ -1,57 +1,28 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
+import { useState } from "react";
 import Varanasi from "../../images/varanasi.jpg";
-import SubDetails from "./SubDetails";
+import SubDetails from "../blogs/SubDetails";
 import axios from "axios";
 import { Helmet } from "react-helmet";
 import StickyBox from "react-sticky-box";
 import Sidebar from "react-sticky-box";
-import styles from "./styles.module.css";
+import styles from "../blogs/styles.module.css";
 import { StickyContainer, Sticky } from "react-sticky"
 import { FaUserAlt, FaCommentDots} from "react-icons/fa";
 import { AiFillHeart, AiFillCalendar, AiFillEye} from "react-icons/ai";
-import kashi from './data/Kashi-Vishwanath-Darshan.json'
-import top from './data/Top-10-Places-in-Varanasi.json'
-import rental from './data/carHire.json'
-import Ghats from './data/Ghats.json'
-import Bhu from './data/Bhu.json'
 
-function Blogs({match}) {
+import rental from '../blogs/data/carHire.json'
+
+//hello
+
+function Ones({match}) {
   const route = match.params.name;
   let [data, setData] = useState({});
   const [mode, setMode] = useState('online');
   
-  const dataAbout = async () => {
-    try {
-      var url = `/${route}`;
-      var request = {
-        url,
-        method: "get",
-      };
-      const res = await axios(route);
-      const result = await res.data;
-      setData(result);
-      localStorage.setItem("data", JSON.stringify(result))
-    } catch (err) {
-      let collection = localStorage.getItem("data");
-      setData(JSON.parse(collection))
-      console.log(err);
-    }
-    
-  };
-  useEffect(() => {
-    dataAbout();
-  }, [route]);
-  if(route ==="Kashi-Vishwanath-Darshan")
-  data = kashi;
-  else if(route === "carRental")
-  data = rental 
-  else if(route === "Ghats")
-  data = Ghats
-  else if(route === "Bhu")
-  data = Bhu
-  else 
-  data = top;
   
+  data = rental;
+ 
   const { title, intro, article, keyword, description, pageName, image } = data;
   return (
     <React.Fragment>
@@ -153,4 +124,4 @@ function Blogs({match}) {
   );
 }
 
-export default Blogs;
+export default Ones;
