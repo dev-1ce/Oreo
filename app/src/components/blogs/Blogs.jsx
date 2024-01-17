@@ -14,6 +14,7 @@ import top from './data/Top-10-Places-in-Varanasi.json'
 import rental from './data/carHire.json'
 import Ghats from './data/Ghats.json'
 import Bhu from './data/Bhu.json'
+import Devd from "./data/Dev-dipawali.json"
 
 function Blogs({match}) {
   const route = match.params.name;
@@ -49,6 +50,8 @@ function Blogs({match}) {
   data = Ghats
   else if(route === "Bhu")
   data = Bhu
+  else if(route === "DevDipawali")
+  data = Devd
   else 
   data = top;
   

@@ -56,6 +56,9 @@ function NavbarComponent() {
                 <Link to="/blogs/Bhu" className="font-15 text-brown font-regular dropdown-item">
                   BHU
                 </Link>
+                <Link to="/blogs/DevDipawali" className="font-15 text-brown font-regular dropdown-item">
+                  Dev Depawali
+                </Link>
               </div>
             </NavDropdown>
             <NavLink to="/blogs/carRental" activeClassName="activeNav">
