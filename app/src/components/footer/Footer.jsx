@@ -22,8 +22,8 @@ function Footer() {
                 <i className="fas fa-phone-alt text-white" /> +91-9935474730
               </div>
             </a>     
-            <a href="https://www.taxiinvaranasi.in/" className="font-medium text-brown font-16 py-0 my-0">
-              https://www.taxiinvaranasi.in/
+            <a href="https://www.kashitaxi.in/" className="font-medium text-brown font-16 py-0 my-0">
+              https://www.kashitaxi.in/
             </a>
           </div>
         </div>
