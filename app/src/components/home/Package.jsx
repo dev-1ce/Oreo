@@ -1,8 +1,8 @@
 import React from 'react';
 import One from "../../images/packageOne.png"
-import Two from "../../images/packageTwo.png"
-import Three from "../../images/packageThree.png"
-import Four from "../../images/packageFour.png"
+import Two from "../../images/packageTwo.jpeg"
+import Three from "../../images/packageThree.jpeg"
+import Four from "../../images/packageFour.jpeg"
 import { Link } from 'react-router-dom';
 import ones from"../package/ones"
 import two from"../package/two"
