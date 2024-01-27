@@ -1,6 +1,11 @@
 {
     "routes": [
       {
+        "route": "/sitemap.xml",
+        "serve": "/sitemap.xml",
+        "statusCode": 200
+      },
+      {
         "route": "/*",
         "serve": "/index.html",
         "statusCode": 200

@@ -1,36 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-
+		<!--	created with www.mysitemapgenerator.com	-->
+		<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-  <loc>https://www.taxiinvaranasi.in/</loc>
-  <lastmod>2020-10-20T21:59:14+00:00</lastmod>
+	<loc>https://www.kashitaxi.in/</loc>
+	<lastmod>2024-01-27T15:05:14+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>https://www.taxiinvaranasi.in/kashiVishwanath</loc>
-  <lastmod>2020-10-20T21:59:14+00:00</lastmod>
+	<loc>https://www.kashitaxi.in/blogs/Kashi-Vishwanath-Darshan</loc>
+	<lastmod>2024-01-27T15:05:14+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>https://www.taxiinvaranasi.in/places</loc>
-  <lastmod>2020-10-20T21:59:14+00:00</lastmod>
+	<loc>https://www.kashitaxi.in/blogs/places</loc>
+	<lastmod>2024-01-27T15:05:14+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>https://www.taxiinvaranasi.in/carHire</loc>
-  <lastmod>2020-10-20T21:59:14+00:00</lastmod>
+	<loc>https://www.kashitaxi.in/blogs/Ghats</loc>
+	<lastmod>2024-01-27T15:05:14+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>https://www.taxiinvaranasi.in/taxiService</loc>
-  <lastmod>2020-10-20T21:59:14+00:00</lastmod>
+	<loc>https://www.kashitaxi.in/blogs/Bhu</loc>
+	<lastmod>2024-01-27T15:05:14+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>https://www.taxiinvaranasi.in/about</loc>
-  <lastmod>2020-10-20T21:59:14+00:00</lastmod>
+	<loc>https://www.kashitaxi.in/blogs/DevDipawali</loc>
+	<lastmod>2024-01-27T15:05:14+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>https://www.taxiinvaranasi.in/contact</loc>
-  <lastmod>2020-10-20T21:59:14+00:00</lastmod>
+	<loc>https://www.kashitaxi.in/blogs/carRental</loc>
+	<lastmod>2024-01-27T15:05:14+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.kashitaxi.in/about</loc>
+	<lastmod>2024-01-27T15:05:14+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://www.kashitaxi.in/contact</loc>
+	<lastmod>2024-01-27T15:05:14+01:00</lastmod>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>https://www.kashitaxi.in/package/one</loc>
+	<lastmod>2024-01-27T15:05:14+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.kashitaxi.in/blogs/allahabad</loc>
+	<lastmod>2024-01-27T15:05:14+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.kashitaxi.in/blogs/vindhyachal</loc>
+	<lastmod>2024-01-27T15:05:14+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.kashitaxi.in/blogs/kashiVishwanath</loc>
+	<lastmod>2024-01-27T15:05:14+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.kashitaxi.in/blogs/gaya</loc>
+	<lastmod>2024-01-27T15:05:14+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.kashitaxi.in/package/two</loc>
+	<lastmod>2024-01-27T15:05:14+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.kashitaxi.in/package/three</loc>
+	<lastmod>2024-01-27T15:05:14+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.kashitaxi.in/package/four</loc>
+	<lastmod>2024-01-27T15:05:14+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 </urlset>
