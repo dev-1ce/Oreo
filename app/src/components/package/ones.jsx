@@ -16,7 +16,7 @@ const App = () => {
   ];
 
   return (
-    <div className="container">
+    <div className="vehicle-info">
       <h1>Vehicle Information</h1>
       <ImageGallery />
       <VehicleTable data={vehicleData} />

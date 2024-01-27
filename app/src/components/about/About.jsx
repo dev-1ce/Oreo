@@ -32,7 +32,7 @@ function About() {
                                 <span><BsClockFill className="font-20 text-orange" /> Mon-Sat 8:00-18:00 </span>
                             </div>
                             <div className="font-regular font-15 text-brown mb-2">
-                                <span><GrMail className="font-20 text-orange" /> kashitaxi@gmail.com</span>
+                                <span><GrMail className="font-20 text-orange" /> taxiinvaranasiii@gmail.com</span>
                             </div>
                         </div>
                     </div>
