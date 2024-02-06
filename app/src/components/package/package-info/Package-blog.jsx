@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import Varanasi from "../../images/varanasi.jpg";
 import SubDetails from "./SubDetails";
 import axios from "axios";
 import { Helmet } from "react-helmet";
@@ -9,19 +8,10 @@ import styles from "./styles.module.css";
 import { StickyContainer, Sticky } from "react-sticky"
 import { FaUserAlt, FaCommentDots} from "react-icons/fa";
 import { AiFillHeart, AiFillCalendar, AiFillEye} from "react-icons/ai";
-import kashi from './data/Kashi-Vishwanath-Darshan.json'
-import top from './data/Top-10-Places-in-Varanasi.json'
-import rental from './data/carHire.json'
-import Ghats from './data/Ghats.json'
-import Bhu from './data/Bhu.json'
-import Devd from "./data/Dev-dipawali.json"
-import Prayagraj from "./data/Prayagraj.json"
-import Vindhyachal from "./data/Vindhyachal.json"
-import Gaya from "./data/Gaya.json"
-import Sarnath from "./data/Sarnath.json"
-import Durga from "./data/Durgamandir.json"
+import vindhyachal from '../../blogs/data/Vindhyachal.json'
+import top from "../../blogs/data/Top-10-Places-in-Varanasi.json"
 
-function Blogs({match}) {
+function Package({match}) {
   const route = match.params.name;
   let [data, setData] = useState({});
   const [mode, setMode] = useState('online');
@@ -47,29 +37,13 @@ function Blogs({match}) {
   useEffect(() => {
     dataAbout();
   }, [route]);
-  if(route ==="Kashi Vishwanath")
-  data = kashi;
-  else if(route === "carRental")
-  data = rental 
-  else if(route === "Ghats")
-  data = Ghats
-  else if(route === "Bhu")
-  data = Bhu
-  else if(route === "DevDipawali")
-  data = Devd
-  else if(route === "Top 10 places")
-  data = top;
-  else if(route === "Prayagraj")
-  data = Prayagraj;
-  else if(route === "Vindhyachal")
-  data = Vindhyachal;
-  else if(route === "Gaya")
-  data = Gaya;
-  else if(route === "Sarnath Darshan")
-  data = Sarnath;
-  else if(route === "Durga Mandir")
-  data = Durga;
-
+  
+  
+  if(route==="airport")
+  data = top
+  if(route === "Vindhyachal")
+  data = vindhyachal;
+  
   const { title, intro, article, keyword, description, pageName, image } = data;
   return (
     <React.Fragment>
@@ -155,20 +129,11 @@ function Blogs({match}) {
           <h2 className="font-demi font-18 mt-4 text-brown">
             {pageName}
           </h2>
-          <hr className="bg-orange" />
-          <div className="blog-post mb-3 mt-0 font-medium text-brown font-14">
-            <FaUserAlt /> 4500+ pickups&nbsp;&nbsp;&nbsp;
-            <AiFillCalendar /> We will wait for
-            you&nbsp;&nbsp;&nbsp;
-            <FaCommentDots /> Fastest Cab in
-            Varanasi&nbsp;&nbsp;&nbsp;
-            <AiFillHeart /> 5 favourites&nbsp;&nbsp;&nbsp;
-            <AiFillEye /> 1.128k views
-          </div>
+          
         </div>
       </div>
     </React.Fragment>
   );
 }
 
-export default Blogs;
+export default Package;

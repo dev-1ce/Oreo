@@ -44,10 +44,10 @@ function NavbarComponent() {
             </NavLink>
             <NavDropdown title="Blogs" id="collasible-nav-dropdown" className="font-medium font-17 px-3 navbar-item text-white text-center active">
               <div style={{background: '#FFECD3', border: 'none', borderRadius: '5px', color: '#663D14'}}>
-                <Link to="/blogs/Kashi-Vishwanath-Darshan" className="font-15 text-brown font-regular dropdown-item">                  
+                <Link to="/blogs/Kashi Vishwanath" className="font-15 text-brown font-regular dropdown-item">                  
                   KashiVishwanath                  
                 </Link>
-                <Link to="/blogs/places" className="font-15 text-brown font-regular dropdown-item">
+                <Link to="/blogs/Top 10 places" className="font-15 text-brown font-regular dropdown-item">
                   Top 10 places in Varanasi
                 </Link>
                 <Link to="/blogs/Ghats" className="font-15 text-brown font-regular dropdown-item">
@@ -58,6 +58,21 @@ function NavbarComponent() {
                 </Link>
                 <Link to="/blogs/DevDipawali" className="font-15 text-brown font-regular dropdown-item">
                   Dev Depawali
+                </Link>
+                <Link to="/blogs/Prayagraj" className="font-15 text-brown font-regular dropdown-item">
+                  Prayagraj
+                </Link>
+                <Link to="/blogs/Vindhyachal" className="font-15 text-brown font-regular dropdown-item">
+                  Vindhyachal
+                </Link>
+                <Link to="/blogs/Gaya" className="font-15 text-brown font-regular dropdown-item">
+                  Gaya
+                </Link>
+                <Link to="/blogs/Sarnath Darshan" className="font-15 text-brown font-regular dropdown-item">
+                  Sarnath
+                </Link>
+                <Link to="/blogs/Durga Mandir" className="font-15 text-brown font-regular dropdown-item">
+                  Durga Mata Mandir
                 </Link>
               </div>
             </NavDropdown>

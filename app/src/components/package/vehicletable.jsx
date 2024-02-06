@@ -1,28 +1,56 @@
 // VehicleTable.js
-import React from 'react';
 
-const VehicleTable = ({ data }) => {
+import React, { useState, useEffect } from 'react';
+import VindhyachalData from './data/VindhyachalVehicle.json'; // Import data for Vindhyachal route
+ // Import data for another route
+
+const VehicleTable = ({ match }) => {
+  const route = match.params.name
+  const [data, setData] = useState([]);
+  const [showFullTable, setShowFullTable] = useState(false);
+  useEffect(() => {
+    // Fetch data based on the route name
+    
+    let routeData = [];
+    if (route=== 'Vindhyachal') {
+      routeData = VindhyachalData;}
+    setData(routeData);
+  }, [route]);
+
+  
+  const displayedData = showFullTable ? data : data.slice(0, 4);
   return (
-    <table>
-      <thead>
-        <tr>
-          <th>Vehicle Type</th>
-          <th>No. of People</th>
-          <th>Luggage Space</th>
-          <th>Amount</th>
-        </tr>
-      </thead>
-      <tbody>
-        {data.map((vehicle, index) => (
-          <tr key={index}>
-            <td>{vehicle.vehicleType}</td>
-            <td>{vehicle.noOfPeople}</td>
-            <td>{vehicle.luggageSpace}</td>
-            <td>{vehicle.amount}</td>
+    <div>
+      <h2> {route} Package </h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Vehicle</th>
+            <th>People</th>
+            <th>Luggage</th>
+            <th>Price</th>
           </tr>
-        ))}
-      </tbody>
-    </table>
+        </thead>
+        <tbody className={showFullTable ? 'expanded' : ''}>
+          {displayedData.map((item, index) => (
+            <tr key={index}>
+              <td>{item.vehicle}</td>
+              <td>{item.people}</td>
+              <td>{item.luggage}</td>
+              <td>{item.price}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+      {/* Render dropdown only if there are more than four rows */}
+      {data.length > 4 && (
+        <div>
+          <button onClick={() => setShowFullTable(!showFullTable)}>
+            {showFullTable ? 'Show less' : 'Show more'}
+          </button>
+        </div>
+      )}
+    </div>
   );
 };
 

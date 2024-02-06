@@ -1,6 +1,7 @@
 import React, { useContext } from 'react'
 import { DetailsContext } from "../../context/context";
 import { FaRegHeart, FaRegCommentDots } from "react-icons/fa";
+import {Link} from "react-router-dom"
 
 function Blogs() {
     const { homeBlogs } = useContext(DetailsContext);
@@ -15,8 +16,8 @@ function Blogs() {
                 <div className="row">
                     {article.map(blog => {
                         return (
-                            <div className="col-lg-4 col-md-12 col-sm-12 col-12">
-                                <div className="card card-news mb-4">
+                            <div className="col-lg-4 col-md-12 col-sm-12 col-12"><Link to = {`./blogs/${blog.name}`}>
+                                <div className="card card-news mb-4" >
                                     <div className="blogs-img">
                                         <img src={blog.image} alt={blog.name} className="img-fluid card-img-top blogs-img" />
                                         <h3 className="font-demi text-white font-25 blogs-heading">{blog.name}</h3>
@@ -36,7 +37,7 @@ function Blogs() {
                                         </div>
                                     </div>                                                                        
                                     </div>
-                                </div>
+                                </div></Link>
                             </div>  
                         )
                     })}

@@ -31,34 +31,34 @@ function Footer() {
           <div className="col-lg-8 col-md-10 col-sm-11 col-11 mx-auto py-4">
             <div className="row">
               <div className="col-lg-6 col-md-6 col-sm-6 col-12">            
-                <Link to="/blogs/allahabad">
+                <Link to="/blogs/Prayagraj">
                   <li className="text-white font-medium my-1">
-                    <IoIosArrowForward className="text-white align-baseline" /> Varanasi to Allahabad
+                    <IoIosArrowForward className="text-white align-baseline" /> Varanasi to Prayagraj
                   </li>
                 </Link>
-                <Link to="/blogs/vindhyachal">
+                <Link to="/blogs/Vindhyachal">
                   <li className="text-white font-medium my-1">
                     <IoIosArrowForward className="text-white align-baseline" /> Varanasi to Vindhyachal
                   </li>
                 </Link>
-                <Link to="/blogs/kashiVishwanath">
+                <Link to="/blogs/Kashi Vishwanath">
                   <li className="text-white font-medium my-1">
                     <IoIosArrowForward className="text-white align-baseline" /> Kashi Vishwanath Darshan
                   </li>
                 </Link>
               </div>
               <div className="col-lg-6 col-md-6 col-sm-6 col-12">
-                <Link to="/blogs/gaya">
+                <Link to="/blogs/Gaya">
                   <li className="text-white font-medium my-1">
                     <IoIosArrowForward className="text-white align-baseline" /> Varanasi to Gaya Cab Rental
                   </li>
                 </Link>
-                <Link to="/">
+                <Link to="/blogs/Sarnath Darshan">
                   <li className="text-white font-medium my-1">
                     <IoIosArrowForward className="text-white align-baseline" /> Sarnath Darshan
                   </li>
                 </Link>
-                <Link to="/">
+                <Link to="/blogs/Durga Mandir">
                   <li className="text-white font-medium my-1">
                     <IoIosArrowForward className="text-white align-baseline" /> Durga Mandir Darshan
                   </li>
