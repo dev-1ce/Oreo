@@ -35,21 +35,29 @@
         ]
       },
       {
-        "heading": "Timings",
-        "question":"Normal days",
-        "paragraph": [
-          "Morning: 5:00 AM to 12:00 PM",
-          "Afternoon: 1:30 PM to 7:15 PM",
-          "Night: 8:15 PM to 10:30 PM"
-        ]
+        "heading": "Normal Days",
+        "table": {
+        "headers": ["Time of Day", "Entry", "Exit"],
+        "rows": [
+          ["Morning", "5:00 AM", "12:00 PM"],
+          ["Afternoon", "1:30 PM", "7:15 PM"],
+          ["Night", "8:15 PM", "10:30 Pm"]
+          ]
+        }
       },
       {
-        "question": "Navratri Days",
+        "heading": "Navratri Days",
+        "table": {
+        "headers": ["Time of Day", "Entry", "Exit"],
+        "rows": [
+          ["Morning", "4:00 AM", "12:00 PM"],
+          ["Afternoon", "1:00 PM", "7:30 PM"],
+          ["Night", "8:30 PM", "10:30 PM"],
+          ["Twilight","10:30 PM","3:00 AM"]
+          ]
+        },
         "paragraph": [
-            "Morning: 4:00 AM to 12:00 PM",
-            "Afternoon: 1:00 PM to 7:30 PM",
-            "Night: 8:30 PM to 10:30 PM and 10:30 PM to 3:00 AM",
-            "Please note that these timings may vary, and it’s always a good idea to check the temple’s official website or contact them directly for the most accurate and up-to-date information. Enjoy your visit! 🙏"
+          "Please note that these timings may vary, and it’s always a good idea to check the temple’s official website or contact them directly for the most accurate and up-to-date information. Enjoy your visit! 🙏"
         ]
       },
       {
