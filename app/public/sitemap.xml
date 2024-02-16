@@ -3,87 +3,78 @@
 		<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 	<loc>https://www.kashitaxi.in/</loc>
-	<lastmod>2024-01-27T15:05:14+01:00</lastmod>
-	<priority>0.6</priority>
-</url>
-<url>
-	<loc>https://www.kashitaxi.in/blogs/Kashi-Vishwanath-Darshan</loc>
-	<lastmod>2024-01-27T15:05:14+01:00</lastmod>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.kashitaxi.in/blogs/places</loc>
-	<lastmod>2024-01-27T15:05:14+01:00</lastmod>
-	<priority>0.8</priority>
+	<lastmod>2024-02-16T16:20:02+01:00</lastmod>
+	<priority>1</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
 	<loc>https://www.kashitaxi.in/blogs/Ghats</loc>
-	<lastmod>2024-01-27T15:05:14+01:00</lastmod>
-	<priority>0.8</priority>
+	<lastmod>2024-02-16T16:20:02+01:00</lastmod>
+	<priority>0.7</priority>
 </url>
 <url>
 	<loc>https://www.kashitaxi.in/blogs/Bhu</loc>
-	<lastmod>2024-01-27T15:05:14+01:00</lastmod>
+	<lastmod>2024-02-16T16:20:02+01:00</lastmod>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://www.kashitaxi.in/blogs/DevDipawali</loc>
-	<lastmod>2024-01-27T15:05:14+01:00</lastmod>
+	<lastmod>2024-02-16T16:20:02+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.kashitaxi.in/blogs/Prayagraj</loc>
+	<lastmod>2024-02-16T16:20:02+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.kashitaxi.in/blogs/Vindhyachal</loc>
+	<lastmod>2024-02-16T16:20:02+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.kashitaxi.in/blogs/Gaya</loc>
+	<lastmod>2024-02-16T16:20:02+01:00</lastmod>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://www.kashitaxi.in/blogs/carRental</loc>
-	<lastmod>2024-01-27T15:05:14+01:00</lastmod>
+	<lastmod>2024-02-16T16:20:02+01:00</lastmod>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://www.kashitaxi.in/about</loc>
-	<lastmod>2024-01-27T15:05:14+01:00</lastmod>
+	<lastmod>2024-02-16T16:20:02+01:00</lastmod>
 	<priority>1.0</priority>
 </url>
 <url>
 	<loc>https://www.kashitaxi.in/contact</loc>
-	<lastmod>2024-01-27T15:05:14+01:00</lastmod>
-	<priority>0.5</priority>
+	<lastmod>2024-02-16T16:20:02+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-	<loc>https://www.kashitaxi.in/package/one</loc>
-	<lastmod>2024-01-27T15:05:14+01:00</lastmod>
+	<loc>https://www.kashitaxi.in/package/airport</loc>
+	<lastmod>2024-02-16T16:20:02+01:00</lastmod>
+	<priority>1</priority>
+</url>
+<url>
+	<loc>https://www.kashitaxi.in/package/Prayagraj</loc>
+	<lastmod>2024-02-16T16:20:02+01:00</lastmod>
+	<priority>1</priority>
+</url>
+<url>
+	<loc>https://www.kashitaxi.in/package/Gaya</loc>
+	<lastmod>2024-02-16T16:20:02+01:00</lastmod>
+	<priority>1</priority>
+</url>
+<url>
+	<loc>https://www.kashitaxi.in/package/Vindhyachal</loc>
+	<lastmod>2024-02-16T16:20:02+01:00</lastmod>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.kashitaxi.in/blogs/allahabad</loc>
-	<lastmod>2024-01-27T15:05:14+01:00</lastmod>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.kashitaxi.in/blogs/vindhyachal</loc>
-	<lastmod>2024-01-27T15:05:14+01:00</lastmod>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.kashitaxi.in/blogs/kashiVishwanath</loc>
-	<lastmod>2024-01-27T15:05:14+01:00</lastmod>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.kashitaxi.in/blogs/gaya</loc>
-	<lastmod>2024-01-27T15:05:14+01:00</lastmod>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.kashitaxi.in/package/two</loc>
-	<lastmod>2024-01-27T15:05:14+01:00</lastmod>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.kashitaxi.in/package/three</loc>
-	<lastmod>2024-01-27T15:05:14+01:00</lastmod>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.kashitaxi.in/package/four</loc>
-	<lastmod>2024-01-27T15:05:14+01:00</lastmod>
+	<loc>https://www.kashitaxi.in/blogs/</loc>
+	<lastmod>2024-02-16T16:20:02+01:00</lastmod>
 	<priority>0.8</priority>
 </url>
 </urlset>
