@@ -9,7 +9,9 @@ import { StickyContainer, Sticky } from "react-sticky"
 import { FaUserAlt, FaCommentDots} from "react-icons/fa";
 import { AiFillHeart, AiFillCalendar, AiFillEye} from "react-icons/ai";
 import vindhyachal from '../../blogs/data/Vindhyachal.json'
-import top from "../../blogs/data/Top-10-Places-in-Varanasi.json"
+import prayagraj from '../../blogs/data/Prayagraj.json'
+import gaya from '../../blogs/data/Gaya.json'
+import places from "../../blogs/data/Top-10-Places-in-Varanasi.json"
 
 function Package({match}) {
   const route = match.params.name;
@@ -40,7 +42,11 @@ function Package({match}) {
   
   
   if(route==="airport")
-  data = top
+  data = places
+  if(route==="Prayagraj")
+  data = prayagraj
+  if(route==="Gaya")
+  data = gaya
   if(route === "Vindhyachal")
   data = vindhyachal;
   

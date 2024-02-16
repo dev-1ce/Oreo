@@ -20,16 +20,16 @@ function Package() {
                     </a>
                     </Link>
                 </div>
-                <div className="col-lg-3 col-md-3 col-sm-6 col-6">
+                <div className="col-lg-3 col-md-3 col-sm-6 col-6"><Link to ="/package/Prayagraj" >
                     <a href="tel:+91-9935474730">
                         <img src={Prayagraj} alt={Prayagraj} className="rounded mb-3 img-fluid"/>
-                    </a>
+                    </a></Link>
                 </div>
-                <div className="col-lg-3 col-md-3 col-sm-6 col-6">
+                <div className="col-lg-3 col-md-3 col-sm-6 col-6"><Link to ="/package/Gaya" >
                     <a href="tel:+91-9935474730">
                         <img src={Gaya} alt={Gaya} className="rounded mb-3 img-fluid"/>
                     </a>
-                    
+                    </Link>
                 </div>
                 <div className="col-lg-3 col-md-3 col-sm-6 col-6"><Link to ="/package/Vindhyachal" >
                     <a href="tel:+91-9935474730">

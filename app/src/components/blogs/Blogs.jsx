@@ -10,7 +10,7 @@ import { StickyContainer, Sticky } from "react-sticky"
 import { FaUserAlt, FaCommentDots} from "react-icons/fa";
 import { AiFillHeart, AiFillCalendar, AiFillEye} from "react-icons/ai";
 import kashi from './data/Kashi-Vishwanath-Darshan.json'
-import top from './data/Top-10-Places-in-Varanasi.json'
+import places from './data/Top-10-Places-in-Varanasi.json'
 import rental from './data/carHire.json'
 import Ghats from './data/Ghats.json'
 import Bhu from './data/Bhu.json'
@@ -58,7 +58,7 @@ function Blogs({match}) {
   else if(route === "DevDipawali")
   data = Devd
   else if(route === "Top 10 places")
-  data = top;
+  data = places;
   else if(route === "Prayagraj")
   data = Prayagraj;
   else if(route === "Vindhyachal")
