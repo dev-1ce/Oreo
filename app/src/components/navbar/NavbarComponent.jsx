@@ -76,6 +76,22 @@ function NavbarComponent() {
                 </Link>
               </div>
             </NavDropdown>
+            <NavDropdown title="Packages" id="collasible-nav-dropdown" className="font-medium font-17 px-3 navbar-item text-white text-center active">
+              <div style={{background: '#FFECD3', border: 'none', borderRadius: '5px', color: '#663D14'}}>
+                <Link to="/package/airport" className="font-15 text-brown font-regular dropdown-item">                  
+                  Airport                
+                </Link>
+                <Link to="/package/Vindhyachal" className="font-15 text-brown font-regular dropdown-item">                  
+                  Vindhyachal                
+                </Link>
+                <Link to="/package/Prayagraj" className="font-15 text-brown font-regular dropdown-item">                  
+                  Prayagraj             
+                </Link>
+                <Link to="/package/Gaya" className="font-15 text-brown font-regular dropdown-item">                  
+                  Gaya               
+                </Link>
+              </div>
+            </NavDropdown>
             <NavLink to="/blogs/carRental" activeClassName="activeNav">
               <Nav.Link
                 href="/blogs/carRental"
