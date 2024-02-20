@@ -7,12 +7,13 @@ import { FaUserAlt, FaCommentDots} from "react-icons/fa";
 import { AiFillHeart, AiFillCalendar, AiFillEye} from "react-icons/ai";
 
 export default function Four(props){
+
     return <>
-    <Package {...props} />
+    <Package {...props}  />
     <div className="vehicle-info">
       {/* <h1>Vehicle Information</h1> */}
       {/* <ImageGallery /> */}
-      <VehicleTable {...props} />
+      <VehicleTable {...props}  />
       <hr className="bg-orange" />
           <div className="blog-post mb-3 mt-0 font-medium text-brown font-14">
             <FaUserAlt /> 4500+ pickups&nbsp;&nbsp;&nbsp;
