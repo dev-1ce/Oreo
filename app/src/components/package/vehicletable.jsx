@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import VindhyachalData from './data/VindhyachalVehicle.json';
 import PrayagrajData from "./data/PrayagrajVehicle.json"
-import GayaData from "./data/Gaya.json" // Import data for Vindhyachal route
+import GayaData from "./data/GayaVehicle.json" // Import data for Vindhyachal route
  // Import data for another route
 
 const VehicleTable = ({ match }) => {
