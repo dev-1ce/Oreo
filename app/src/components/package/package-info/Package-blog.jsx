@@ -8,10 +8,6 @@ import styles from "./styles.module.css";
 import { StickyContainer, Sticky } from "react-sticky"
 import { FaUserAlt, FaCommentDots} from "react-icons/fa";
 import { AiFillHeart, AiFillCalendar, AiFillEye} from "react-icons/ai";
-import vindhyachal from '../../blogs/data/Vindhyachal.json'
-import prayagraj from '../../blogs/data/Prayagraj.json'
-import gaya from '../../blogs/data/Gaya.json'
-import places from "../../blogs/data/Top-10-Places-in-Varanasi.json"
 
 function Package({match}) {
   const route = match.params.name;
@@ -20,16 +16,13 @@ function Package({match}) {
   
   const dataAbout = async () => {
     try {
-      var url = `/${route}`;
-      var request = {
-        url,
-        method: "get",
-      };
-      const res = await axios(route);
-      const result = await res.data;
-      setData(result);
+      
+      const res = await axios.get(`http://localhost:7071/api/getBlogs?name=${route}`);
+      const result =  res;
+      console.log(result.data)
+      setData(result.data);
       localStorage.setItem("data", JSON.stringify(result))
-    } catch (err) {
+    } catch(err) {
       let collection = localStorage.getItem("data");
       setData(JSON.parse(collection))
       console.log(err);
@@ -45,16 +38,6 @@ function Package({match}) {
       section.scrollIntoView({ behavior: 'smooth' });
     }
   };
-  
-  
-  if(route==="airport")
-  data = places
-  if(route==="Prayagraj")
-  data = prayagraj
-  if(route==="Gaya")
-  data = gaya
-  if(route === "Vindhyachal")
-  data = vindhyachal;
   
   const { title, intro, article, keyword, description, pageName, image } = data;
   return (
