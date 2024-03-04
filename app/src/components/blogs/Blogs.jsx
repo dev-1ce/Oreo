@@ -36,7 +36,7 @@ function Blogs({match}) {
   }, [route]);
   
 
-  const { title, intro, article, keyword, description, pageName, image } = data;
+  const { title, intro, article, keyword, description, pageName, image,images } = data;
   return (
     <React.Fragment>
       <Helmet>        
@@ -105,7 +105,10 @@ function Blogs({match}) {
       <div className="container">
         <div className="col-lg-8 col-md-10 col-sm-12 col-12 mx-auto">
           <h1 className="font-25 my-4 font-bold font-weight-bold text-brown underlined-heading">{title}</h1>
-          <img src={image} className="img-fluid my-3" alt={title} />
+          {image && <img src={image} className="img-fluid my-3" alt={title} />}
+          {images && (images.file.map((i)=>{
+            return <img src={i} className="img-fluid my-3" alt={title} />
+          }))}
           {intro
             ? intro.map((introdetail, index) => {
                 return <p key={index} className="font-regular text-brown font-16">{introdetail}</p>;
