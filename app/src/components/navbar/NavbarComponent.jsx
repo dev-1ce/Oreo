@@ -53,6 +53,9 @@ function NavbarComponent() {
                 <Link to="/blogs/Ghats" className="font-15 text-brown font-regular dropdown-item">
                   Top Ghats
                 </Link>
+                <Link to="/blogs/Ayodhya" className="font-15 text-brown font-regular dropdown-item">
+                  Ayodhya
+                </Link>
                 <Link to="/blogs/Bhu" className="font-15 text-brown font-regular dropdown-item">
                   BHU
                 </Link>
@@ -68,18 +71,33 @@ function NavbarComponent() {
                 <Link to="/blogs/Gaya" className="font-15 text-brown font-regular dropdown-item">
                   Gaya
                 </Link>
-                <Link to="/blogs/Sarnath Darshan" className="font-15 text-brown font-regular dropdown-item">
+                <Link to="/blogs/Sarnath" className="font-15 text-brown font-regular dropdown-item">
                   Sarnath
                 </Link>
-                <Link to="/blogs/Durga Mandir" className="font-15 text-brown font-regular dropdown-item">
+                <Link to="/blogs/Durgamandir" className="font-15 text-brown font-regular dropdown-item">
                   Durga Mata Mandir
                 </Link>
               </div>
             </NavDropdown>
             <NavDropdown title="Packages" id="collasible-nav-dropdown" className="font-medium font-17 px-3 navbar-item text-white text-center active">
               <div style={{background: '#FFECD3', border: 'none', borderRadius: '5px', color: '#663D14'}}>
-                <Link to="/package/airport" className="font-15 text-brown font-regular dropdown-item">                  
+                <Link to="/package/Top 10 places" className="font-15 text-brown font-regular dropdown-item">                  
                   Airport                
+                </Link>
+                <Link to="/package/AyodhyaTaxi" className="font-15 text-brown font-regular dropdown-item">                  
+                  Ayodhya Taxi                
+                </Link>
+                <Link to="/package/AyodhyaBus" className="font-15 text-brown font-regular dropdown-item">                  
+                  Ayodhya Bus                
+                </Link><Link to="/package/AyodhyaTrain" className="font-15 text-brown font-regular dropdown-item">                  
+                  Ayodhya Train                
+                </Link>
+                <Link to="/package/GayaTaxi" className="font-15 text-brown font-regular dropdown-item">                  
+                  Gaya Taxi                
+                </Link><Link to="/package/GayaBus" className="font-15 text-brown font-regular dropdown-item">                  
+                  Gaya Bus            
+                </Link><Link to="/package/GayaTrain" className="font-15 text-brown font-regular dropdown-item">                  
+                  Gaya Tain                
                 </Link>
                 <Link to="/package/Vindhyachal" className="font-15 text-brown font-regular dropdown-item">                  
                   Vindhyachal                
@@ -92,7 +110,7 @@ function NavbarComponent() {
                 </Link>
               </div>
             </NavDropdown>
-            <NavLink to="/blogs/carRental" activeClassName="activeNav">
+            <NavLink to="/blogs/carHire" activeClassName="activeNav">
               <Nav.Link
                 href="/blogs/carRental"
                 className="font-medium font-17 px-3 navbar-item

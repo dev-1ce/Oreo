@@ -1,0 +1,82 @@
+{
+    "title": "Varanasi to Gaya Train: A Convenient Journey for Pilgrims",
+    "metaDescription": "Discover the train options available for your pilgrimage from Varanasi to Gaya. Learn about schedules, fares, and tips for a smooth train journey.",
+    "pageName": "varanasi-to-gaya-train-journey",
+    "description": "Essential information on train travel from Varanasi to Gaya, offering a comfortable and convenient way to reach the sacred city for pilgrims.",
+    "keywords": ["Varanasi to Gaya train", "train journey", "pilgrimage travel", "train schedules", "train fares"],
+    "images": 
+      {
+        "id": "YtbLgTRIIGjZVuk8",
+        "description": "The serene and spiritual essence of a train journey from Varanasi to Gaya, portraying a train moving through picturesque landscapes with elements suggesting the spiritual significance of both cities.",
+        "file":["../images/GayaTaxi.jpg"]
+      }
+    ,
+    "article": [
+      {
+        "heading": "H1",
+        "title": "Varanasi to Gaya Train: Your Guide to a Hassle-Free Pilgrimage",
+        "paragraph": []
+      },
+      {
+        "heading": "H2",
+        "title": "Introduction to Train Travel from Varanasi to Gaya",
+        "paragraph": [
+          "Traveling by train from Varanasi to Gaya is a popular choice for pilgrims and tourists alike, offering a comfortable and convenient way to reach the sacred city of Gaya."
+        ]
+      },
+      {
+        "heading": "H2",
+        "title": "Train Options from Varanasi to Gaya",
+        "paragraph": [
+          "Several trains operate between Varanasi and Gaya, catering to different preferences and budgets."
+        ],
+        "tabularInfo": {
+          "trainDetails": [
+            {
+              "name": "Bodhgaya Express",
+              "trainNumber": "12333",
+              "departure": "09:15 AM",
+              "arrival": "01:30 PM",
+              "travelTime": "Approximately 4 hours 15 minutes"
+            },
+            {
+              "name": "Varanasi-Ranchi Express",
+              "trainNumber": "18611",
+              "departure": "05:30 PM",
+              "arrival": "10:15 PM",
+              "travelTime": "Approximately 4 hours 45 minutes"
+            },
+            {
+              "name": "Doom Dooma Express",
+              "trainNumber": "15905",
+              "departure": "11:55 PM",
+              "arrival": "04:30 AM",
+              "travelTime": "Approximately 4 hours 35 minutes"
+            }
+          ]
+        }
+      },
+      {
+        "heading": "H2",
+        "title": "Booking Your Train Tickets from Varanasi to Gaya",
+        "paragraph": [
+          "Booking train tickets in advance is recommended, especially during peak pilgrimage seasons. Tickets can be booked online through the IRCTC website or at railway reservation counters."
+        ]
+      },
+      {
+        "heading": "H2",
+        "title": "Tips for a Comfortable Train Journey",
+        "paragraph": [
+          "To ensure a comfortable journey, book your tickets well in advance, pack light, carry snacks and water, and arrive at the station at least 30 minutes before the scheduled departure time."
+        ]
+      },
+      {
+        "heading": "H2",
+        "title": "Conclusion",
+        "paragraph": [
+          "Traveling from Varanasi to Gaya by train is a convenient and comfortable option for pilgrims. Plan your journey in advance and follow the tips provided for a hassle-free and enjoyable train experience."
+        ]
+      }
+    ]
+  }
+  

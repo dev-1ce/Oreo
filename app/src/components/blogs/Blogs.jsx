@@ -9,17 +9,7 @@ import styles from "./styles.module.css";
 import { StickyContainer, Sticky } from "react-sticky"
 import { FaUserAlt, FaCommentDots} from "react-icons/fa";
 import { AiFillHeart, AiFillCalendar, AiFillEye} from "react-icons/ai";
-import kashi from './data/Kashi-Vishwanath-Darshan.json'
-import places from './data/Top-10-Places-in-Varanasi.json'
-import rental from './data/carHire.json'
-import Ghats from './data/Ghats.json'
-import Bhu from './data/Bhu.json'
-import Devd from "./data/Dev-dipawali.json"
-import Prayagraj from "./data/Prayagraj.json"
-import Vindhyachal from "./data/Vindhyachal.json"
-import Gaya from "./data/Gaya.json"
-import Sarnath from "./data/Sarnath.json"
-import Durga from "./data/Durgamandir.json"
+
 
 function Blogs({match}) {
   const route = match.params.name;
@@ -28,16 +18,12 @@ function Blogs({match}) {
   
   const dataAbout = async () => {
     try {
-      var url = `/${route}`;
-      var request = {
-        url,
-        method: "get",
-      };
-      const res = await axios(route);
-      const result = await res.data;
-      setData(result);
+      const res = await axios.get(`https://www.kashitaxi.in/api/getBlogs?name=${route}`);
+      const result =  res;
+      console.log(result.data)
+      setData(result.data);
       localStorage.setItem("data", JSON.stringify(result))
-    } catch (err) {
+    } catch(err) {
       let collection = localStorage.getItem("data");
       setData(JSON.parse(collection))
       console.log(err);
@@ -47,30 +33,9 @@ function Blogs({match}) {
   useEffect(() => {
     dataAbout();
   }, [route]);
-  if(route ==="Kashi Vishwanath")
-  data = kashi;
-  else if(route === "carRental")
-  data = rental 
-  else if(route === "Ghats")
-  data = Ghats
-  else if(route === "Bhu")
-  data = Bhu
-  else if(route === "DevDipawali")
-  data = Devd
-  else if(route === "Top 10 places")
-  data = places;
-  else if(route === "Prayagraj")
-  data = Prayagraj;
-  else if(route === "Vindhyachal")
-  data = Vindhyachal;
-  else if(route === "Gaya")
-  data = Gaya;
-  else if(route === "Sarnath Darshan")
-  data = Sarnath;
-  else if(route === "Durga Mandir")
-  data = Durga;
+  
 
-  const { title, intro, article, keyword, description, pageName, image } = data;
+  const { title, intro, article, keyword, description, pageName, image,images } = data;
   return (
     <React.Fragment>
       <Helmet>        
@@ -139,7 +104,10 @@ function Blogs({match}) {
       <div className="container">
         <div className="col-lg-8 col-md-10 col-sm-12 col-12 mx-auto">
           <h1 className="font-25 my-4 font-bold font-weight-bold text-brown underlined-heading">{title}</h1>
-          <img src={image} className="img-fluid my-3" alt={title} />
+          {image && <img src={image} className="img-fluid my-3" alt={title} />}
+          {images && (images.file.map((i)=>{
+            return <img src={i} className="img-fluid my-3" alt={title} />
+          }))}
           {intro
             ? intro.map((introdetail, index) => {
                 return <p key={index} className="font-regular text-brown font-16">{introdetail}</p>;
