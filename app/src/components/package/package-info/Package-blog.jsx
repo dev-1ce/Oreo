@@ -17,7 +17,7 @@ function Package({match}) {
   const dataAbout = async () => {
     try {
       
-      const res = await axios.get(`http://localhost:7071/api/getBlogs?name=${route}`);
+      const res = await axios.get(`https://www.kashitaxi.in/api/getBlogs?name=${route}`);
       const result =  res;
       console.log(result.data)
       setData(result.data);
