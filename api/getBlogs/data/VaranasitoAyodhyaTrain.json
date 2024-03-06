@@ -1,59 +1,146 @@
 {
-    "title": "Exploring the Varanasi to Ayodhya Train Journey: A Spiritual Sojourn",
-    "metaDescription": "Embark on a spiritual journey from Varanasi to Ayodhya by train. Discover the best routes, travel tips, and the significance of these holy cities in Hindu culture.",
-    "pageName": "varanasi-to-ayodhya-train-journey",
-    "description": "A detailed guide to the spiritual train journey from Varanasi to Ayodhya, covering the routes, travel tips, and cultural significance.",
-    "keywords": ["Varanasi to Ayodhya train", "spiritual journey", "travel tips", "Hindu culture", "holy cities"],
-    "images": 
-      {
+  "title": "Exploring the Sacred Journey: Varanasi to Ayodhya Train",
+  "metaDescription": "Discover the serene and spiritual journey from Varanasi to Ayodhya by train. Learn about the different train options available for travelers based on preferred time slots.",
+  "pageName": "varanasi-to-ayodhya-train-journey",
+  "description": "A guide to the Varanasi to Ayodhya train journey, detailing various train options available for travelers, catering to different preferences and time slots.",
+  "keywords": ["Varanasi to Ayodhya train", "train journey", "train options", "spiritual journey", "train schedule"],
+  "images": 
+    {
         "id": "kJD0FeW8vped0qRJ",
         "description": "A serene and vibrant image capturing the essence of a spiritual journey by train from Varanasi to Ayodhya, featuring a train winding through the lush countryside with the River Ganges flowing nearby and silhouettes of temples in the background.",
         "file":["../images/AyodhyaTrain1.jpg","../images/AyodhyaTrain2.jpg","../images/AyodhyaTrain3.jpg"]
-      }
-    ,
-    "article": [
-      {
-        "heading": "H1",
-        "title": "Varanasi to Ayodhya Train: A Gateway to Spiritual Enlightenment",
-        "paragraph": [
-          "Varanasi, also known as Kashi, is a city that resonates with the echoes of spirituality and ancient history. It is a place where the sacred River Ganges flows, offering solace to millions of souls. Just a train journey away lies Ayodhya, the birthplace of Lord Rama, a city that holds a special place in the hearts of devotees. The Varanasi to Ayodhya train journey is not just a mode of transportation; it is a passage through the spiritual heartland of India."
-        ]
-      },
-      {
-        "heading": "H2",
-        "title": "Understanding the Varanasi to Ayodhya Train Route",
-        "paragraph": [
-          "The distance between Varanasi and Ayodhya by train is approximately 200 kilometers, and several trains connect these two cities. The journey usually takes around 4 to 6 hours, depending on the train and the route taken."
-        ]
-      },
-      {
-        "heading": "H3",
-        "title": "Popular Trains from Varanasi to Ayodhya",
-        "paragraph": [
-          "For travelers planning their journey from Varanasi to Ayodhya, here is a list of popular trains along with their departure and arrival times, including Jammu Tawi Express, Ganga Sutlej Express, Doon Express, Farakka Express, Bahraich Intercity Express, Marudhar Express, Bareilly Express, and Lucknow Jn. Express. These trains offer a convenient and comfortable journey, catering to the needs of various travelers. It is advisable to check the latest train schedules and availability before planning your trip."
-        ]
-      },
-      {
-        "heading": "H2",
-        "title": "Exploring Varanasi: The Spiritual Capital of India",
-        "paragraph": [
-          "Before embarking on the train journey to Ayodhya, take some time to explore Varanasi, a city that offers a unique blend of spiritualism, culture, and history. Visit the famous Kashi Vishwanath Temple, witness the mesmerizing Ganga Aarti at the ghats, explore the narrow lanes of the city, savor the local cuisine, and soak in the vibrant atmosphere that makes Varanasi a must-visit destination."
-        ]
-      },
-      {
-        "heading": "H3",
-        "title": "Ayodhya: The Birthplace of Lord Rama",
-        "paragraph": [
-          "Upon reaching Ayodhya, immerse yourself in the city's spiritual aura. Visit the Ram Janmabhoomi temple, Hanuman Garhi, and the Kanak Bhawan. Take a stroll along the Sarayu River and participate in the evening aarti. Ayodhya is a city that echoes the tales of devotion, valor, and the epic Ramayana."
-        ]
-      },
-      {
-        "heading": "H2",
-        "title": "Travel Tips for a Comfortable Journey",
-        "paragraph": [
-          "Travel tips include checking train schedules, carrying a valid ID, packing light, staying hydrated, and respecting local customs. These tips are aimed at ensuring a comfortable and hassle-free journey."
+    },
+  "article": [
+    {
+      "heading": "H1",
+      "title": "Varanasi to Ayodhya Train Journey",
+      "paragraph": [
+        "Embark on a spiritual journey from the holy city of Varanasi to the sacred land of Ayodhya. This article will guide you through the various Varanasi to Ayodhya train options available, catering to different preferences and time slots."
+      ]
+    },
+    {
+      "heading": "H2",
+      "title": "Varanasi to Ayodhya Train: Early Morning Departures",
+      "paragraph": [
+        "For those who wish to start their Varanasi to Ayodhya train journey early and reach Ayodhya by mid-morning."
+      ],
+      "tabularInfo": {
+        "trainDetails": [
+          {
+            "name": "Varanasi - New Delhi Vande Bharat Express",
+            "trainNumber": "22415",
+            "departure": "06:00 AM",
+            "description": "Offers a quick and comfortable journey."
+          },
+          {
+            "name": "Ganga Sutlej Express",
+            "trainNumber": "13307",
+            "departure": "05:30 AM",
+            "description": "A good option for those who want to reach Ayodhya by mid-morning."
+          }
         ]
       }
-    ]
+    },
+    {
+      "heading": "H2",
+      "title": "Varanasi to Ayodhya Train: Mid-Morning Departures",
+      "paragraph": [
+        "Ideal for travelers who prefer to start their Varanasi to Ayodhya train journey after breakfast."
+      ],
+      "tabularInfo": {
+        "trainDetails": [
+          {
+            "name": "Kolkata - Jammu Tawi Express",
+            "trainNumber": "13151",
+            "departure": "02:50 AM",
+            "description": "Suitable for travelers who prefer to start their journey early in the morning and reach Ayodhya by late morning."
+          }
+        ]
+      }
+    },
+    {
+      "heading": "H2",
+      "title": "Varanasi to Ayodhya Train: Afternoon Departures",
+      "paragraph": [
+        "For those who prefer a post-lunch Varanasi to Ayodhya train journey."
+      ],
+      "tabularInfo": {
+        "trainDetails": [
+          {
+            "name": "Varanasi - New Delhi Vande Bharat Express",
+            "trainNumber": "22435",
+            "departure": "15:00 PM",
+            "description": "Ideal for travelers who prefer a post-lunch journey."
+          },
+          {
+            "name": "Varanasi - Lucknow Intercity Express",
+            "trainNumber": "14207",
+            "departure": "13:15 PM",
+            "description": "Reaches Ayodhya in the early evening."
+          }
+        ]
+      }
+    },
+    {
+      "heading": "H2",
+      "title": "Varanasi to Ayodhya Train: Evening Departures",
+      "paragraph": [
+        "Suitable for travelers who prefer daytime Varanasi to Ayodhya train journeys with an evening arrival."
+      ],
+      "tabularInfo": {
+        "trainDetails": [
+          {
+            "name": "Doon Express",
+            "trainNumber": "13009",
+            "departure": "10:30 AM",
+            "description": "Reaches Ayodhya in the evening."
+          },
+          {
+            "name": "Raxaul - Anand Vihar Terminal Sadbhavana Express",
+            "trainNumber": "14017",
+            "departure": "11:45 AM",
+            "description": "Another option for those who prefer to travel during the day and arrive in Ayodhya by evening."
+          }
+        ]
+      }
+    },
+    {
+      "heading": "H2",
+      "title": "Varanasi to Ayodhya Train: Late Evening/Night Departures",
+      "paragraph": [
+        "For travelers who prefer overnight Varanasi to Ayodhya train journeys."
+      ],
+      "tabularInfo": {
+        "trainDetails": [
+          {
+            "name": "Farakka Express (Via Ayodhya Cantt.)",
+            "trainNumber": "13483",
+            "departure": "11:15 PM",
+            "description": "A good option for travelers who prefer overnight journeys to reach Ayodhya early in the morning."
+          }
+        ]
+      }
+    },
+    {
+      "heading": "H2",
+      "title": "Preparing for Your Varanasi to Ayodhya Train Journey",
+      "paragraph": [
+        "Before embarking on your Varanasi to Ayodhya train journey, here are a few tips to ensure a smooth and comfortable trip.",
+        "- Ticket Booking: Book your Varanasi to Ayodhya train tickets well in advance, especially during peak seasons, to avoid last-minute hassles.",
+        "- Packing Essentials: Carry light luggage, a valid ID proof, and essential items like water, snacks, and a travel pillow for overnight journeys.",
+        "- Arrival at the Station: Arrive at the Varanasi railway station at least 30 minutes before your train's departure time to navigate through the station and find your platform.",
+        "- Safety Precautions: Keep your belongings secure and be cautious of your surroundings, especially during overnight journeys."
+      ]
+    },
+    {
+      "heading": "H3",
+      "title": "Conclusion",
+      "paragraph": [
+        "The Varanasi to Ayodhya train journey offers a comfortable and scenic route, allowing passengers to witness the beauty of the Indian countryside while embarking on a spiritual journey. Choose the train that best fits your schedule and preferences to make your journey memorable."
+      ]
+    }
+  ],
+  "additionalResources": {
+    "contactInfo": "For any travel services in Varanasi, including train ticket bookings and travel arrangements, feel free to call 9696009644 or visit kashitaxi.in."
   }
-  
+}
