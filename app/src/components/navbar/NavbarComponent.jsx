@@ -47,7 +47,7 @@ function NavbarComponent() {
                 <Link to="/blogs/Kashi Vishwanath" className="font-15 text-brown font-regular dropdown-item">                  
                   KashiVishwanath                  
                 </Link>
-                <Link to="/blogs/Top 10 places" className="font-15 text-brown font-regular dropdown-item">
+                <Link to="/blogs/Top-10-places" className="font-15 text-brown font-regular dropdown-item">
                   Top 10 places in Varanasi
                 </Link>
                 <Link to="/blogs/Ghats" className="font-15 text-brown font-regular dropdown-item">
@@ -84,30 +84,28 @@ function NavbarComponent() {
                 <Link to="/package/Top 10 places" className="font-15 text-brown font-regular dropdown-item">                  
                   Airport                
                 </Link>
-                <Link to="/package/AyodhyaTaxi" className="font-15 text-brown font-regular dropdown-item">                  
-                  Ayodhya Taxi                
+                <Link to="/package/Varanasi to Ayodhya Taxi" className="font-15 text-brown font-regular dropdown-item">                  
+                  Varanasi to Ayodhya Taxi                
                 </Link>
-                <Link to="/package/AyodhyaBus" className="font-15 text-brown font-regular dropdown-item">                  
-                  Ayodhya Bus                
-                </Link><Link to="/package/AyodhyaTrain" className="font-15 text-brown font-regular dropdown-item">                  
-                  Ayodhya Train                
+                <Link to="/package/Varanasi to Ayodhya Bus" className="font-15 text-brown font-regular dropdown-item">                  
+                  Varanasi to Ayodhya Bus                
+                </Link><Link to="/package/Varanasi to Ayodhya Train" className="font-15 text-brown font-regular dropdown-item">                  
+                  Varanasi to Ayodhya Train                
                 </Link>
-                <Link to="/package/GayaTaxi" className="font-15 text-brown font-regular dropdown-item">                  
-                  Gaya Taxi                
-                </Link><Link to="/package/GayaBus" className="font-15 text-brown font-regular dropdown-item">                  
-                  Gaya Bus            
-                </Link><Link to="/package/GayaTrain" className="font-15 text-brown font-regular dropdown-item">                  
-                  Gaya Tain                
+                <Link to="/package/Varanasi to Gaya Taxi" className="font-15 text-brown font-regular dropdown-item">                  
+                  Varnasi to Gaya Taxi                
+                </Link><Link to="/package/Varanasi to Gaya Bus" className="font-15 text-brown font-regular dropdown-item">                  
+                  Varanasi to Gaya Bus            
+                </Link><Link to="/package/Varanasi to Gaya Train" className="font-15 text-brown font-regular dropdown-item">                  
+                  Varanasi to Gaya Train                
                 </Link>
                 <Link to="/package/Vindhyachal" className="font-15 text-brown font-regular dropdown-item">                  
-                  Vindhyachal                
+                 Varanasi to Vindhyachal                
                 </Link>
                 <Link to="/package/Prayagraj" className="font-15 text-brown font-regular dropdown-item">                  
-                  Prayagraj             
+                  Varanasi to Prayagraj             
                 </Link>
-                <Link to="/package/Gaya" className="font-15 text-brown font-regular dropdown-item">                  
-                  Gaya               
-                </Link>
+                
               </div>
             </NavDropdown>
             <NavLink to="/blogs/carHire" activeClassName="activeNav">

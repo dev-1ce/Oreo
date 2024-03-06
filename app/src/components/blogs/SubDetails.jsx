@@ -2,10 +2,12 @@ import React from "react";
 
 function SubDetails({ subDetails }) {
 
+  const HeadingTag = `${subDetails.heading}`
+
   return (
     <React.Fragment>
-      <h2 className="font-bold font-20 mt-2 text-brown">{subDetails.title}</h2>
-      <h3 className="font-bold font-17 mt-2 text-brown">{subDetails.question}</h3>
+      <HeadingTag className="font-bold font-20 mt-2 text-brown">{subDetails.title}</HeadingTag>
+      {subDetails.question && <h3 className="font-bold font-17 mt-2 text-brown">{subDetails.question}</h3>}
       {subDetails.image && (<img src={subDetails.image} className="img-fluid my-3"></img>)}
       {subDetails.paragraph && subDetails.paragraph.map((subParagraghDetails, index) => {
         return <p key={index} className="font-regular font-16 text-brown">{subParagraghDetails}</p>;
