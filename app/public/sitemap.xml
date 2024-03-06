@@ -8,8 +8,18 @@
 	<changefreq>weekly</changefreq>
 </url>
 <url>
+	<loc>https://www.kashitaxi.in/blogs/Kashi%20Vishwanath</loc>
+	<lastmod>2024-03-05T19:13:38+00:00</lastmod>
+	<priority>0.7</priority>
+</url>
+<url>
 	<loc>https://www.kashitaxi.in/blogs/Ghats</loc>
 	<lastmod>2024-02-16T16:20:02+01:00</lastmod>
+	<priority>0.7</priority>
+</url>
+<url>
+	<loc>https://www.kashitaxi.in/blogs/Sarnath</loc>
+	<lastmod>2024-03-05T19:13:38+00:00</lastmod>
 	<priority>0.7</priority>
 </url>
 <url>
@@ -27,6 +37,12 @@
 	<lastmod>2024-02-16T16:20:02+01:00</lastmod>
 	<priority>0.8</priority>
 </url>
+<url>
+	<loc>https://www.kashitaxi.in/blogs/Durgamandir</loc>
+	<lastmod>2024-03-05T19:13:38+00:00</lastmod>
+	<priority>0.8</priority>
+</url>
+
 <url>
 	<loc>https://www.kashitaxi.in/blogs/Vindhyachal</loc>
 	<lastmod>2024-02-16T16:20:02+01:00</lastmod>
@@ -62,15 +78,37 @@
 	<lastmod>2024-02-16T16:20:02+01:00</lastmod>
 	<priority>1</priority>
 </url>
+
 <url>
-	<loc>https://www.kashitaxi.in/package/Gaya</loc>
+	<loc>https://www.kashitaxi.in/package/Varanasi%20to%20Ayodhya%20Taxi</loc>
+	<lastmod>2024-03-05T19:13:38+00:00</lastmod>
+	<priority>1</priority>
+</url>
+
+<url>
+	<loc>https://www.kashitaxi.in/package/Varanasi%20to%20Ayodhya%20Bus</loc>
+	<lastmod>2024-03-05T19:13:38+00:00</lastmod>
+	<priority>1</priority>
+</url>
+<url>
+	<loc>https://www.kashitaxi.in/package/Varanasi%20to%20Ayodhya%20Train</loc>
+	<lastmod>2024-03-05T19:13:38+00:00</lastmod>
+	<priority>1</priority>
+</url>
+<url>
+	<loc>https://www.kashitaxi.in/package/Varansi%20to%20Gaya%20Taxi</loc>
 	<lastmod>2024-02-16T16:20:02+01:00</lastmod>
 	<priority>1</priority>
 </url>
 <url>
-	<loc>https://www.kashitaxi.in/package/Vindhyachal</loc>
-	<lastmod>2024-02-16T16:20:02+01:00</lastmod>
-	<priority>0.8</priority>
+	<loc>https://www.kashitaxi.in/package/Varanasi%20to%20Gaya%20Bus</loc>
+	<lastmod>2024-03-05T19:13:38+00:00</lastmod>
+	<priority>1</priority>
+</url>
+<url>
+	<loc>https://www.kashitaxi.in/package/Varanasi%20to%20Gaya%20Train</loc>
+	<lastmod>2024-03-05T19:13:38+00:00</lastmod>
+	<priority>1</priority>
 </url>
 <url>
 	<loc>https://www.kashitaxi.in/blogs/</loc>

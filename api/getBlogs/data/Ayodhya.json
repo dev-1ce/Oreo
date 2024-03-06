@@ -4,13 +4,13 @@
   "pageName": "varanasi-to-ayodhya-spiritual-journey",
   "description": "A comprehensive guide to exploring the spiritual and cultural essence of Varanasi and Ayodhya. This tour offers insights into the rich heritage and religious significance of these sacred cities.",
   "keywords": ["Varanasi to Ayodhya tour", "spiritual journey", "cultural heritage", "sacred cities", "religious significance"],
-  "images": [
+  "images": 
       {
         "id": "EkbIb30jqc2DNxfh",
         "description": "The spiritual essence of a journey from Varanasi to Ayodhya, showcasing iconic symbols and landmarks such as the ghats of Varanasi and temples of Ayodhya, blending into a landscape that evokes peace, devotion, and timeless spirituality.",
         "file":["../images/blogAyodhya.jpg"]
       }
-  ],
+  ,
   "article": [
     {
       "heading": "H1",

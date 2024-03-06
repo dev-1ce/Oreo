@@ -47,7 +47,7 @@ function NavbarComponent() {
                 <Link to="/blogs/Kashi Vishwanath" className="font-15 text-brown font-regular dropdown-item">                  
                   KashiVishwanath                  
                 </Link>
-                <Link to="/blogs/Top-10-places" className="font-15 text-brown font-regular dropdown-item">
+                <Link to="/blogs/Top 10 Places" className="font-15 text-brown font-regular dropdown-item">
                   Top 10 places in Varanasi
                 </Link>
                 <Link to="/blogs/Ghats" className="font-15 text-brown font-regular dropdown-item">
