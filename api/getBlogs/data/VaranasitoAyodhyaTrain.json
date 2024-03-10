@@ -1,7 +1,7 @@
 {
   "title": "Exploring the Sacred Journey: Varanasi to Ayodhya Train",
   "metaDescription": "Discover the serene and spiritual journey from Varanasi to Ayodhya by train. Learn about the different train options available for travelers based on preferred time slots.",
-  "pageName": "varanasi-to-ayodhya-train-journey",
+  "pageName": "Varanasi to Ayodhya Train Journey",
   "description": "A guide to the Varanasi to Ayodhya train journey, detailing various train options available for travelers, catering to different preferences and time slots.",
   "keywords": ["Varanasi to Ayodhya train", "train journey", "train options", "spiritual journey", "train schedule"],
   "images": 
@@ -24,22 +24,14 @@
       "paragraph": [
         "For those who wish to start their Varanasi to Ayodhya train journey early and reach Ayodhya by mid-morning."
       ],
-      "tabularInfo": {
-        "trainDetails": [
-          {
-            "name": "Varanasi - New Delhi Vande Bharat Express",
-            "trainNumber": "22415",
-            "departure": "06:00 AM",
-            "description": "Offers a quick and comfortable journey."
-          },
-          {
-            "name": "Ganga Sutlej Express",
-            "trainNumber": "13307",
-            "departure": "05:30 AM",
-            "description": "A good option for those who want to reach Ayodhya by mid-morning."
+      
+        "table": {
+            "headers": ["Train Name", "Train Number", "Departure", "Description"],
+            "rows": [
+              ["Varanasi - New Delhi Vande Bharat Express", "22415", "06:00 AM", "Offers a quick and comfortable journey."],
+              ["Ganga Sutlej Express", "13307", "05:30 AM", "A good option for those who want to reach Ayodhya by mid-morning."]
+            ]
           }
-        ]
-      }
     },
     {
       "heading": "H2",
@@ -47,60 +39,41 @@
       "paragraph": [
         "Ideal for travelers who prefer to start their Varanasi to Ayodhya train journey after breakfast."
       ],
-      "tabularInfo": {
-        "trainDetails": [
-          {
-            "name": "Kolkata - Jammu Tawi Express",
-            "trainNumber": "13151",
-            "departure": "02:50 AM",
-            "description": "Suitable for travelers who prefer to start their journey early in the morning and reach Ayodhya by late morning."
-          }
-        ]
-      }
-    },
+       "table": {
+          "headers": ["Train Name", "Train Number", "Departure", "Description"],
+          "rows": [
+            ["Kolkata - Jammu Tawi Express", "13151", "02:50 AM", "Suitable for travelers who prefer to start their journey early in the morning and reach Ayodhya by late morning."]
+          ]
+        }
+    }
+    ,
     {
       "heading": "H2",
       "title": "Varanasi to Ayodhya Train: Afternoon Departures",
       "paragraph": [
         "For those who prefer a post-lunch Varanasi to Ayodhya train journey."
       ],
-      "tabularInfo": {
-        "trainDetails": [
-          {
-            "name": "Varanasi - New Delhi Vande Bharat Express",
-            "trainNumber": "22435",
-            "departure": "15:00 PM",
-            "description": "Ideal for travelers who prefer a post-lunch journey."
-          },
-          {
-            "name": "Varanasi - Lucknow Intercity Express",
-            "trainNumber": "14207",
-            "departure": "13:15 PM",
-            "description": "Reaches Ayodhya in the early evening."
-          }
-        ]
+      
+        "table": {
+          "headers": ["Train Name", "Train Number", "Departure", "Description"],
+          "rows": [
+            ["Varanasi - New Delhi Vande Bharat Express", "22435", "03:00 PM", "Ideal for travelers who prefer a post-lunch journey."],
+            ["Varanasi - Lucknow Intercity Express", "14207", "01:15 PM", "Reaches Ayodhya in the early evening."]
+          ]
+        }
       }
-    },
+    ,
     {
       "heading": "H2",
       "title": "Varanasi to Ayodhya Train: Evening Departures",
       "paragraph": [
         "Suitable for travelers who prefer daytime Varanasi to Ayodhya train journeys with an evening arrival."
       ],
-      "tabularInfo": {
-        "trainDetails": [
-          {
-            "name": "Doon Express",
-            "trainNumber": "13009",
-            "departure": "10:30 AM",
-            "description": "Reaches Ayodhya in the evening."
-          },
-          {
-            "name": "Raxaul - Anand Vihar Terminal Sadbhavana Express",
-            "trainNumber": "14017",
-            "departure": "11:45 AM",
-            "description": "Another option for those who prefer to travel during the day and arrive in Ayodhya by evening."
-          }
+      "table": {
+        "headers": ["Train Name", "Train Number", "Departure", "Description"],
+        "rows": [
+          ["Doon Express", "13009", "10:30 AM", "Reaches Ayodhya in the evening."],
+          ["Raxaul - Anand Vihar Terminal Sadbhavana Express", "14017", "11:45 AM", "Another option for those who prefer to travel during the day and arrive in Ayodhya by evening."]
         ]
       }
     },
@@ -110,16 +83,13 @@
       "paragraph": [
         "For travelers who prefer overnight Varanasi to Ayodhya train journeys."
       ],
-      "tabularInfo": {
-        "trainDetails": [
-          {
-            "name": "Farakka Express (Via Ayodhya Cantt.)",
-            "trainNumber": "13483",
-            "departure": "11:15 PM",
-            "description": "A good option for travelers who prefer overnight journeys to reach Ayodhya early in the morning."
-          }
-        ]
-      }
+
+      "table": {
+          "headers": ["Train Name", "Train Number", "Departure", "Description"],
+          "rows": [
+            ["Farakka Express (Via Ayodhya Cantt.)", "13483", "11:15 PM", "A good option for travelers who prefer overnight journeys to reach Ayodhya early in the morning."]
+          ]
+        }
     },
     {
       "heading": "H2",
