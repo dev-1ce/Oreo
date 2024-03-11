@@ -1,7 +1,7 @@
 {
     "title": "Varanasi to Gaya Train: A Convenient Journey for Pilgrims",
     "metaDescription": "Discover the train options available for your pilgrimage from Varanasi to Gaya. Learn about schedules, fares, and tips for a smooth train journey.",
-    "pageName": "varanasi-to-gaya-train-journey",
+    "pageName": "Varanasi to Gaya Train Journey",
     "description": "Essential information on train travel from Varanasi to Gaya, offering a comfortable and convenient way to reach the sacred city for pilgrims.",
     "keywords": ["Varanasi to Gaya train", "train journey", "pilgrimage travel", "train schedules", "train fares"],
     "images": 
@@ -30,29 +30,12 @@
         "paragraph": [
           "Several trains operate between Varanasi and Gaya, catering to different preferences and budgets."
         ],
-        "tabularInfo": {
-          "trainDetails": [
-            {
-              "name": "Bodhgaya Express",
-              "trainNumber": "12333",
-              "departure": "09:15 AM",
-              "arrival": "01:30 PM",
-              "travelTime": "Approximately 4 hours 15 minutes"
-            },
-            {
-              "name": "Varanasi-Ranchi Express",
-              "trainNumber": "18611",
-              "departure": "05:30 PM",
-              "arrival": "10:15 PM",
-              "travelTime": "Approximately 4 hours 45 minutes"
-            },
-            {
-              "name": "Doom Dooma Express",
-              "trainNumber": "15905",
-              "departure": "11:55 PM",
-              "arrival": "04:30 AM",
-              "travelTime": "Approximately 4 hours 35 minutes"
-            }
+        "table":{
+          "headers": ["Train Number", "Departure", "Arrival", "Travel Time"],
+          "rows":[
+            ["12333", "09:15 AM", "01:30 PM", "Approximately 4 hours 15 minutes"],
+            ["18611", "05:30 PM", "10:15 PM", "Approximately 4 hours 45 minutes"],
+            ["15905", "11:55 PM", "04:30 AM", "Approximately 4 hours 35 minutes"]
           ]
         }
       },

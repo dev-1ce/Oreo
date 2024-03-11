@@ -1,7 +1,7 @@
 {
   "title": "Varanasi to Ayodhya Taxi: Your Ultimate Guide for a Comfortable Journey",
   "metaDescription": "Explore the seamless and comfortable option of traveling from Varanasi to Ayodhya by taxi. Get insights into the journey, services, and tips for a memorable experience.",
-  "pageName": "varanasi-to-ayodhya-taxi-guide",
+  "pageName": "Varanasi To Ayodhya Taxi Guide",
   "description": "A comprehensive guide to traveling from Varanasi to Ayodhya by taxi, including information on the journey, vehicle options, key attractions, and tips for travelers.",
   "keywords": ["Varanasi to Ayodhya taxi", "comfortable journey", "taxi services", "travel guide", "booking tips"],
   "images": 
@@ -65,25 +65,14 @@
       "paragraph": [
         "Booking a taxi in advance is advisable, especially during peak seasons. Kashi Taxi offers competitive rates for their services, with prices depending on the vehicle chosen. For example, a round trip in a Swift Dzire would cost approximately ₹2750. Additional charges may apply for any detours or waiting time."
       ],
-      "tabularInfo": {
-        "taxiDetails": [
-          {
-            "vehicleType": "Swift Dzire",
-            "price": "₹2750",
-            "description": "Comfortable for up to 4 passengers, ideal for small groups or families."
-          },
-          {
-            "vehicleType": "Toyota Innova",
-            "price": "Contact for price",
-            "description": "Spacious SUV for larger groups, provides extra comfort and luggage space."
-          },
-          {
-            "vehicleType": "Tempo Traveller",
-            "price": "Contact for price",
-            "description": "Best for very large groups or those wanting more space."
-          }
-        ]
-      }
+      "table":{
+              "headers": ["Vehicle Type", "Price", "Description"],
+              "rows": [
+                ["Swift Dzire", "₹2750", "Comfortable for up to 4 passengers, ideal for small groups or families."],
+                ["Toyota Innova", "Contact for price", "Spacious SUV for larger groups, provides extra comfort and luggage space."],
+                ["Tempo Traveller", "Contact for price", "Best for very large groups or those wanting more space."]
+              ]
+            }
     },
     {
       "heading": "H3",
