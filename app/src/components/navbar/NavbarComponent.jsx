@@ -47,7 +47,7 @@ function NavbarComponent() {
                 <Link to="/blogs/Kashi Vishwanath" className="font-15 text-brown font-regular dropdown-item">                  
                   KashiVishwanath                  
                 </Link>
-                <Link to="/blogs/Top 10 Places" className="font-15 text-brown font-regular dropdown-item">
+                <Link to="/blogs/Top10Places" className="font-15 text-brown font-regular dropdown-item">
                   Top 10 places in Varanasi
                 </Link>
                 <Link to="/blogs/Ghats" className="font-15 text-brown font-regular dropdown-item">
@@ -81,7 +81,7 @@ function NavbarComponent() {
             </NavDropdown>
             <NavDropdown title="Packages" id="collasible-nav-dropdown" className="font-medium font-17 px-3 navbar-item text-white text-center active">
               <div style={{background: '#FFECD3', border: 'none', borderRadius: '5px', color: '#663D14'}}>
-                <Link to="/package/Top 10 places" className="font-15 text-brown font-regular dropdown-item">                  
+                <Link to="/package/Airport" className="font-15 text-brown font-regular dropdown-item">                  
                   Airport                
                 </Link>
                 <Link to="/package/Varanasi to Ayodhya Taxi" className="font-15 text-brown font-regular dropdown-item">                  

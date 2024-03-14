@@ -13,7 +13,7 @@ export default function Four(props){
     <div className="vehicle-info">
       {/* <h1>Vehicle Information</h1> */}
       {/* <ImageGallery /> */}
-      <VehicleTable {...props}  />
+      
       <hr className="bg-orange" />
           <div className="blog-post mb-3 mt-0 font-medium text-brown font-14">
             <FaUserAlt /> 4500+ pickups&nbsp;&nbsp;&nbsp;

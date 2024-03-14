@@ -24,7 +24,7 @@
       "paragraph": [
         "The distance between Varanasi and Gaya is approximately 250 kilometers, and the taxi fare varies depending on the type of vehicle you choose. Here's a breakdown of the approximate fares:"
       ],
-      "tabularInfo": {
+      "table": {
         "headers": ["Vehicle Type", "Fare (Approx.)", "Rate per km"],
         "rows": [
           ["Indica", "Rs. 2,250", "Rs. 9 per km"],

@@ -23,8 +23,24 @@
         },
         {
             "title": "Plan Your Visit",
-            "paragraph": ["Plan your visit to Prayagraj during the auspicious Kumbh Mela for a truly immersive spiritual experience. Be sure to check the festival dates and make accommodation arrangements well in advance, as the city attracts a massive influx of pilgrims during this time. Whether you're seeking spiritual enlightenment or cultural exploration, Prayagraj promises a memorable journey filled with history, heritage, and devotion."]
-        }
+            "paragraph": ["Plan your visit to Prayagraj during the auspicious Kumbh Mela for a truly immersive spiritual experience. Be sure to check the festival dates and make accommodation arrangements well in advance, as the city attracts a massive influx of pilgrims during this time. Whether you're seeking spiritual enlightenment or cultural exploration, Prayagraj promises a memorable journey filled with history, heritage, and devotion."],
+            "table": {
+                  "headers": ["Vehicle", "People", "Luggage", "Price"],
+                  "rows": [
+                    ["WagonR", "4", "Small", "2800"],
+                    ["Dzire", "4", "Medium", "3300"],
+                    ["Honda Amaze", "4", "Large", "3500"],
+                    ["Ertiga", "6", "Small", "4000"],
+                    ["Innova", "7", "Small", "4500"],
+                    ["Innova Crysta", "7", "Medium", "5000"],
+                    ["Citiline", "9", "Large", "5500"],
+                    ["Traveller", "12", "Large", "7000"],
+                    ["Traveller", "17", "Large", "7500"],
+                    ["Traveller", "20", "Large", "9000"],
+                    ["Traveller", "26", "Large", "11000"]
+                  ]
+                }
+          }
     ],
     "pageName": "Prayagraj - The Holy City: Travel Guide, Accommodation, Local Cuisine, Kumbh Mela, Allahabad Fort",
     "description": "Discover the rich heritage and spiritual significance of Prayagraj, the holy city at the confluence of the Ganges, Yamuna, and Saraswati rivers. Explore major attractions, accommodation options, local cuisine, and plan your visit during the auspicious Kumbh Mela. Visit now www.prayagrajguide.com or Call us at +91-XXXXXXXXXX.",

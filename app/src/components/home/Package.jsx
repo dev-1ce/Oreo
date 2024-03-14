@@ -14,7 +14,7 @@ function Package() {
                 
             </div>
             <div className="row">
-                <div className="col-lg-3 col-md-3 col-sm-6 col-6"><Link to ="/package/airport" >
+                <div className="col-lg-3 col-md-3 col-sm-6 col-6"><Link to ="/package/Airport" >
                     <a href="tel:+91-9935474730">
                         <img src={Airport} alt={Airport} className="rounded mb-3 img-fluid"/>
                     </a>

@@ -1,0 +1,55 @@
+{
+    "title": "Book Prepaid Taxi At Varanasi Airport",
+    "metaDescription":"Get affordable cab service at Varanasi Airport. Book a prepaid Taxi for just ₹800 at Lal Bahadur Shastri Airport. Ride without hassles with KashiTaxi.",
+    "pageName": "Varanasi Airport Taxi",
+    "description": "Get affordable cab service at Varanasi Airport. Book a prepaid Taxi for just ₹800 at Lal Bahadur Shastri Airport. Ride without hassles with Kashi Taxi.",
+    "keywords": ["Varanasi Airport cab Service", "innova crysta at airport","hire car at Varanasi airport to hotel transfer", "taxi for Lal Bahadur Shastri Airport", "Swift dzire at airport varanasi", "varanasi airport prepaid taxi", "airport cab", "airport transfer", "airport to varanasi city cab", "taxi for airport", "cab from varanasi airport", "airport bus service", "airport tempo traveller"],
+    "images": 
+        {
+          "id": "EkbIb30jqc2DNxfh",
+          "file":["../images/packageOne.png"]
+        }
+    ,
+    "article": [
+      {
+        "heading": "H1",
+        "title": "Varansi Airport Cab and Prepaid Taxi Service",
+        "paragraph": ["Vidhan Travels offers affordable airport transfer services to and from Lal Bahadur Shastri Airport in Varanasi. We provide prepaid taxi bookings for pick-up and drop-off, with a range of cars to choose from including Mini Cab, Micro Cab, Sedan Car, SUVs and mini bus. The Swift Dzire, Toyota Innova and Tempo Traveller are among the top choices for tourists arriving at Varanasi airport. We also offer premium luxury Sedan Cars such as BMW, Audi, Mercedes, Honda City, and SUVs like Fortuner and Innova Crysta or MUV car at Varanasi airport.","At Vidhan Travels, we prioritize the safety of our passengers by following all COVID-19 protective measures. You can be sure that all our cars are well-maintained and sanitized regularly. Additionally, we provide chauffeur-driven cars for airport pick-up and drop-off to or from Varanasi City.","Feel free to contact us anytime for instant taxi service at Varanasi airport. We are available 24/7 and happy to assist you."]
+      },
+      {
+        "heading": "H2",
+        "title": "Tempo Traveller Also Available",
+        "paragraph": ["Want to hire Bus or Tempo Traveller at Varanasi airport for a large group? Our Taxi's are available at various points of Varanasi City for Airport drop and pickup. Rent a bus and tempo traveler for the large group (12,15,17, 35, 45 and 49 seater Bus) for Airport transfer.",""]
+      },
+      {
+        "heading": "H3",
+        "title": "Hire a Cab at Varanasi airport to Outstation",
+        "paragraph": [
+          "We provide Taxi service from Varanasi Airport to and fro all major cities of Uttar Pradesh, Bihar and Madhya Pradesh at very reasonable price. You can Hire Car from Varanasi airport to Prayagraj (Allahabad), Mirzapur, Ghazipur, Jaunpur, Sasaram (Bihar), Mohania (Bihar), Bodhgaya (Bihar), Gaya (Bihar), Singrauli (MP), Renukoot, Robertsganj, Vindhyanagar (MP), Shaktinagar, Azamgarh, Ballia, Gorakhpur, Lucknow and Ayodhya."
+        ]
+      },
+      {
+        "heading":"h3",
+        "title":"Approx prices",
+          "table": {
+            "headers": ["Vehicle", "Capacity", "Luggage Capacity", "Price"],
+            "rows": [
+              ["Innova Crysta", "6-7 seater", "4-5 Bags", "₹1500 ₹1400"],
+              ["Innova", "6-7 seater", "4-5 Bags", "₹1350 ₹1250"],
+              ["Ertiga (New Model)", "6 seater", "4-5 Bags", "₹1150"],
+              ["Swift Dzire", "4 seater", "4 Bags", "₹1000 ₹900"],
+              ["Indigo", "4 seater", "4 Bags", "₹850 ₹800"],
+              ["Etios", "4 seater", "4 Bags", "₹1100 ₹1000"],
+              ["Tavera/Xylo/Ertiga", "6 seater", "4-5 Bags", "₹1250 ₹1150"],
+              ["Honda City", "4 seater", "4 Bags", "₹2500"],
+              ["Tempo Traveller", "10-15 seater", "10-15 Bags", "₹2500"],
+              ["Mini Bus", "20 seater", "20 Bags", "₹3500"],
+              ["Large Bus", "35-45 seater", "35-45 Bags", "₹7500"]
+            ]
+        }
+        
+      }
+     
+    ]
+  }
+  
