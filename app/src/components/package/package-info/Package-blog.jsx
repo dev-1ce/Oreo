@@ -111,7 +111,7 @@ function Package({match}) {
         <div className="col-lg-8 col-md-10 col-sm-12 col-12 mx-auto">
           <div className="inside-header">
           <h1 className="font-25 my-4 font-bold font-weight-bold text-brown underlined-heading">{title}</h1>
-          <button className="button-price" onClick={() => scrollToSection('vehicle-table')}>Get Prices</button>
+          {/* <button className="button-price" onClick={() => scrollToSection('vehicle-table')}>Get Prices</button> */}
           </div>
           {image && <img src={image} className="img-fluid my-3" alt={title} />}
           {images && (images.file.map((i)=>{

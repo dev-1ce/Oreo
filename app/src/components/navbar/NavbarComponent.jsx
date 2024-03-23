@@ -5,6 +5,8 @@ import "./navbar.css";
 import { NavLink, Link } from "react-router-dom";
 import Logo from "../../images/main-logo.png";
 import NavDropdown from "react-bootstrap/NavDropdown"
+import blogOptions from "./data/BlogOptions.json"
+import packageOptions from "./data/PackageOptions.json"
 
 function NavbarComponent() {
   // const [show, setShow] = useState(true);
@@ -37,76 +39,26 @@ function NavbarComponent() {
               <Nav.Link
                 href="/"
                 className="font-medium font-17 px-3 navbar-item
-                  text-white text-center"
-              >
+                  text-white text-center">
                 Home
               </Nav.Link>
             </NavLink>
             <NavDropdown title="Blogs" id="collasible-nav-dropdown" className="font-medium font-17 px-3 navbar-item text-white text-center active">
               <div style={{background: '#FFECD3', border: 'none', borderRadius: '5px', color: '#663D14'}}>
-                <Link to="/blogs/Kashi Vishwanath" className="font-15 text-brown font-regular dropdown-item">                  
-                  KashiVishwanath                  
-                </Link>
-                <Link to="/blogs/Top10Places" className="font-15 text-brown font-regular dropdown-item">
-                  Top 10 places in Varanasi
-                </Link>
-                <Link to="/blogs/Ghats" className="font-15 text-brown font-regular dropdown-item">
-                  Top Ghats
-                </Link>
-                <Link to="/blogs/Ayodhya" className="font-15 text-brown font-regular dropdown-item">
-                  Ayodhya
-                </Link>
-                <Link to="/blogs/Bhu" className="font-15 text-brown font-regular dropdown-item">
-                  BHU
-                </Link>
-                <Link to="/blogs/DevDipawali" className="font-15 text-brown font-regular dropdown-item">
-                  Dev Depawali
-                </Link>
-                <Link to="/blogs/Prayagraj" className="font-15 text-brown font-regular dropdown-item">
-                  Prayagraj
-                </Link>
-                <Link to="/blogs/Vindhyachal" className="font-15 text-brown font-regular dropdown-item">
-                  Vindhyachal
-                </Link>
-                <Link to="/blogs/Gaya" className="font-15 text-brown font-regular dropdown-item">
-                  Gaya
-                </Link>
-                <Link to="/blogs/Sarnath" className="font-15 text-brown font-regular dropdown-item">
-                  Sarnath
-                </Link>
-                <Link to="/blogs/Durgamandir" className="font-15 text-brown font-regular dropdown-item">
-                  Durga Mata Mandir
-                </Link>
+              {blogOptions.map((option, index) => (
+              <Link to={option.path} className="font-15 text-brown font-regular dropdown-item" key={index}>
+              {option.title}
+            </Link>))}
               </div>
             </NavDropdown>
             <NavDropdown title="Packages" id="collasible-nav-dropdown" className="font-medium font-17 px-3 navbar-item text-white text-center active">
-              <div style={{background: '#FFECD3', border: 'none', borderRadius: '5px', color: '#663D14'}}>
-                <Link to="/package/Airport" className="font-15 text-brown font-regular dropdown-item">                  
-                  Airport                
-                </Link>
-                <Link to="/package/Varanasi to Ayodhya Taxi" className="font-15 text-brown font-regular dropdown-item">                  
-                  Varanasi to Ayodhya Taxi                
-                </Link>
-                <Link to="/package/Varanasi to Ayodhya Bus" className="font-15 text-brown font-regular dropdown-item">                  
-                  Varanasi to Ayodhya Bus                
-                </Link><Link to="/package/Varanasi to Ayodhya Train" className="font-15 text-brown font-regular dropdown-item">                  
-                  Varanasi to Ayodhya Train                
-                </Link>
-                <Link to="/package/Varanasi to Gaya Taxi" className="font-15 text-brown font-regular dropdown-item">                  
-                  Varnasi to Gaya Taxi                
-                </Link><Link to="/package/Varanasi to Gaya Bus" className="font-15 text-brown font-regular dropdown-item">                  
-                  Varanasi to Gaya Bus            
-                </Link><Link to="/package/Varanasi to Gaya Train" className="font-15 text-brown font-regular dropdown-item">                  
-                  Varanasi to Gaya Train                
-                </Link>
-                <Link to="/package/Vindhyachal" className="font-15 text-brown font-regular dropdown-item">                  
-                 Varanasi to Vindhyachal                
-                </Link>
-                <Link to="/package/Prayagraj" className="font-15 text-brown font-regular dropdown-item">                  
-                  Varanasi to Prayagraj             
-                </Link>
-                
-              </div>
+            <div style={{ background: '#FFECD3', border: 'none', borderRadius: '5px', color: '#663D14' }}>
+              {packageOptions.map((option, index) => (
+              <Link to={option.path} className="font-15 text-brown font-regular dropdown-item" key={index}>
+              {option.title}
+              </Link>
+            ))}
+            </div>
             </NavDropdown>
             <NavLink to="/blogs/carHire" activeClassName="activeNav">
               <Nav.Link
